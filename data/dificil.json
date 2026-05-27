@@ -1,0 +1,374 @@
+[
+  {
+    "question": "En la Teoría de la Actividad de Leontiev, ¿cuál es la diferencia fundamental entre acción y operación?",
+    "options": [
+      "No hay diferencia conceptual entre ambas",
+      "La acción es consciente con un objetivo claro; la operación es automatizada sin esfuerzo consciente",
+      "La operación requiere mayor planificación previa que la acción",
+      "La acción es siempre colectiva y la operación siempre individual"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Qué implica epistemológicamente la descolonización del currículo en el MESCP boliviano?",
+    "options": [
+      "Eliminar completamente el conocimiento científico occidental del currículo",
+      "Reconocer y articular en equidad epistémica los saberes indígenas con el conocimiento universal",
+      "Sustituir todos los idiomas extranjeros por lenguas originarias bolivianas",
+      "Reducir el currículo exclusivamente a temas y conocimientos de origen local"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "En la taxonomía revisada de Bloom (Anderson y Krathwohl, 2001), el nivel cognitivo más elevado es:",
+    "options": [
+      "Evaluar con criterios y estándares propios",
+      "Analizar estructuras y relaciones complejas",
+      "Crear: producir algo nuevo y original a partir de elementos dados",
+      "Aplicar procedimientos conocidos a situaciones nuevas"
+    ],
+    "answer": 2,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Cuál es la crítica fundamental de Paulo Freire a la llamada 'educación bancaria'?",
+    "options": [
+      "Que hace un uso excesivo de la tecnología en el proceso educativo",
+      "Que trata al estudiante como receptor pasivo de conocimientos pre-elaborados por otros",
+      "Que no incluye contenidos suficientes de matemáticas aplicadas",
+      "Que los docentes no están correctamente remunerados por su labor pedagógica"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "La Teoría de la Carga Cognitiva de Sweller establece para el diseño instruccional efectivo:",
+    "options": [
+      "Los estudiantes aprenden mejor cuanta más información reciben simultáneamente",
+      "Se debe gestionar la carga intrínseca, extrínseca y relevante para optimizar el aprendizaje",
+      "La memoria de trabajo es prácticamente ilimitada en estudiantes menores de 12 años",
+      "Solo la práctica repetitiva e intensiva consolida definitivamente el aprendizaje"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "El 'aprendizaje situado' según la perspectiva de Lave y Wenger sostiene que:",
+    "options": [
+      "El aprendizaje ocurre mejor en aulas completamente silenciosas y altamente ordenadas",
+      "El aprendizaje es inseparable del contexto social, cultural y de la práctica en que se realiza",
+      "Solo se aprende de manera efectiva mediante instrucción directa y sistemática del docente",
+      "El contexto físico y social no influye significativamente en la calidad del aprendizaje"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "La 'pedagogía de la pregunta' de Freire y Faundez se opone a la educación bancaria porque:",
+    "options": [
+      "Propone que los estudiantes solo realicen preguntas literales sobre el texto estudiado",
+      "Convierte la curiosidad epistemológica y el cuestionamiento crítico de la realidad en el motor del aprendizaje",
+      "Elimina completamente las respuestas del docente para crear incertidumbre permanente",
+      "Solo aplica en contextos universitarios de investigación avanzada"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Qué diferencia a la 'evaluación auténtica' (Wiggins) de la evaluación tradicional?",
+    "options": [
+      "La evaluación auténtica usa exclusivamente exámenes escritos formales y estandarizados",
+      "Involucra tareas del mundo real que demuestran comprensión y aplicación genuina del conocimiento",
+      "La evaluación tradicional es inherentemente más válida y confiable que la auténtica",
+      "No existe ninguna diferencia metodológica sustancial entre ambas aproximaciones"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "En el contexto del artículo 78 de la CPE boliviana, la educación 'descolonizadora' busca principalmente:",
+    "options": [
+      "Eliminar completamente el uso del español de la educación boliviana",
+      "Liberar al pueblo boliviano de la colonialidad del poder, del saber y del ser para recuperar la autoestima",
+      "Prohibir el estudio de la historia universal y la geografía mundial",
+      "Establecer únicamente conocimientos científicos de origen indígena ancestral"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Qué aporta específicamente el concepto de 'comunidades de práctica' (Wenger) a la formación docente?",
+    "options": [
+      "Que los docentes solo aprenden en cursos formales y certificados",
+      "Que el aprendizaje profesional surge de la participación en comunidades que comparten una práctica y construyen identidad colectiva",
+      "Que la práctica docente debe separarse completamente de la teoría pedagógica",
+      "Que cada docente debe desarrollar su propia práctica de forma completamente individual"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "La noción de 'colonialidad del saber' (Quijano y Mignolo) en educación implica que:",
+    "options": [
+      "El conocimiento científico occidental es superior y debe reemplazar los saberes locales",
+      "El patrón colonial de poder que clasifica y jerarquiza los conocimientos persiste aún después de la independencia política",
+      "La colonización fue un proceso exclusivamente político y militar sin efectos epistémicos",
+      "Los saberes indígenas son incompatibles con el conocimiento científico moderno"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Qué es la 'doble hermenéutica' en las ciencias sociales (Giddens) y cómo aplica a la educación?",
+    "options": [
+      "Es un método de interpretación bíblica aplicado a los textos pedagógicos",
+      "El conocimiento científico sobre la sociedad influye en los propios actores sociales, que lo incorporan y modifican su conducta",
+      "Es la interpretación de textos en dos idiomas simultáneamente",
+      "Un método de evaluación que considera dos perspectivas: la del docente y la del estudiante"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "En la perspectiva de Bourdieu, el 'capital cultural' en el campo educativo se refiere a:",
+    "options": [
+      "Los recursos económicos que las familias invierten en educación privada",
+      "El conjunto de conocimientos, habilidades y disposiciones adquiridas por socialización que otorgan ventajas en el campo escolar",
+      "Las calificaciones y certificados académicos obtenidos en el sistema educativo formal",
+      "Los materiales didácticos y recursos tecnológicos disponibles en la escuela"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Qué distingue la 'transdisciplinariedad' de la interdisciplinariedad en el diseño curricular?",
+    "options": [
+      "La transdisciplinariedad simplemente enseña varias materias al mismo tiempo sin relación",
+      "La transdisciplinariedad supera los límites disciplinarios para abordar problemas complejos de la realidad con una nueva lógica integradora",
+      "La interdisciplinariedad integra más disciplinas que la transdisciplinariedad",
+      "No existe diferencia real entre ambos conceptos curriculares"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "El concepto de 'habitus' de Bourdieu, aplicado a la práctica docente, significa:",
+    "options": [
+      "El conjunto de hábitos de higiene y comportamiento del docente",
+      "Las disposiciones duraderas adquiridas por experiencia que orientan la práctica docente de forma pre-reflexiva",
+      "Las rutinas administrativas obligatorias que cumple el docente",
+      "El reglamento institucional que norma el comportamiento en la escuela"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Qué es la 'violencia epistémica' según Spivak y cómo se manifiesta en la educación?",
+    "options": [
+      "La violencia física en el entorno escolar",
+      "El silenciamiento y deslegitimación de los saberes de grupos subalternos a través del discurso hegemónico educativo",
+      "La imposición de evaluaciones difíciles sin preparación previa",
+      "El uso de lenguaje técnico inaccesible en los textos escolares"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "El concepto de 'intersticio' en Homi Bhabha aplicado a la pedagogía intercultural refiere a:",
+    "options": [
+      "El espacio físico entre las aulas de clase",
+      "El espacio de negociación cultural donde se construyen nuevas identidades híbridas entre culturas en contacto",
+      "Las brechas en el currículo que no se abordan pedagógicamente",
+      "El tiempo libre no estructurado entre clases"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "La Teoría de la Reproducción Social de Bourdieu y Passeron sostiene que el sistema educativo:",
+    "options": [
+      "Genera igualdad de oportunidades para todos los estudiantes sin distinción",
+      "Reproduce y legitima las desigualdades sociales al valorar el capital cultural de las clases dominantes",
+      "Transforma completamente la estructura social mediante la educación",
+      "Es neutral respecto a las clases sociales y no favorece a ninguna"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Qué distingue el 'conocimiento local' del 'conocimiento universal' en la perspectiva del giro decolonial?",
+    "options": [
+      "El conocimiento local es inferior y debe ser reemplazado por el universal",
+      "Ambos son formas válidas de conocimiento con sus propias lógicas; el giro decolonial propone su diálogo en igualdad de condiciones",
+      "El conocimiento universal incluye automáticamente al conocimiento local",
+      "Solo el conocimiento indígena es válido en contextos latinoamericanos"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "La 'pedagogía de la memoria' en contextos posconflicto busca:",
+    "options": [
+      "Hacer que los estudiantes memoricen más contenidos académicos",
+      "Construir conciencia histórica crítica sobre traumas colectivos para prevenir su repetición y promover la reconciliación",
+      "Eliminar la enseñanza de historia dolorosa de los currículos",
+      "Solo recuperar tradiciones culturales perdidas sin análisis crítico"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "En la perspectiva de Michel Foucault, la 'disciplina escolar' funciona como:",
+    "options": [
+      "Un conjunto de conocimientos organizados por asignaturas",
+      "Un dispositivo de poder que normaliza cuerpos y subjetividades mediante vigilancia, jerarquía y sanción",
+      "El reglamento de convivencia de la unidad educativa",
+      "La organización del tiempo escolar en horarios y periodos"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Qué es el 'currículum nulo' según Elliot Eisner?",
+    "options": [
+      "Un currículo vacío sin contenidos educativos",
+      "Los contenidos que deliberada o inadvertidamente se excluyen del currículo formal, y cuya ausencia también educa",
+      "El currículo de las escuelas rurales sin acceso a tecnología",
+      "El plan de estudios de unidades educativas sin reconocimiento oficial"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "La 'pedagogía crítica' de Giroux propone que los docentes sean:",
+    "options": [
+      "Transmisores neutros de conocimientos establecidos por el Estado",
+      "Intelectuales transformativos que articulan teoría y práctica para cuestionar las relaciones de poder en la educación",
+      "Administradores eficientes del currículo oficial",
+      "Especialistas técnicos en metodologías de enseñanza estandarizadas"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "El concepto de 'zona de confort epistemológico' en la formación docente se refiere a:",
+    "options": [
+      "El espacio físico cómodo donde el docente prepara sus clases",
+      "La tendencia del docente a reproducir los métodos con los que fue formado, evitando la reflexión crítica sobre su práctica",
+      "La seguridad que siente el docente al dominar su asignatura",
+      "El nivel de confianza del docente frente a los estudiantes"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Cómo entiende Bernstein la diferencia entre 'código elaborado' y 'código restringido' en educación?",
+    "options": [
+      "El código elaborado usa muchas palabras; el restringido usa pocas",
+      "El código elaborado es el lenguaje académico formal; el restringido es el lenguaje contextual informal; su dominio desigual genera desventaja escolar",
+      "El código elaborado es el de las TIC; el restringido es el lenguaje oral",
+      "El código elaborado pertenece a la educación superior; el restringido a la primaria"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "La 'evaluación para el aprendizaje' (Assessment for Learning) según Black y Wiliam implica:",
+    "options": [
+      "Aumentar la frecuencia de los exámenes sumativos",
+      "Usar la evaluación formativa de manera sistemática para informar y ajustar la enseñanza y el aprendizaje",
+      "Sustituir todas las evaluaciones por autoevaluaciones estudiantiles",
+      "Evaluar solo al final de cada unidad didáctica"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Qué es la 'investigación-acción' en la práctica docente según Stenhouse?",
+    "options": [
+      "Una investigación cuantitativa sobre el rendimiento de los estudiantes",
+      "Un proceso reflexivo donde el docente investiga su propia práctica para mejorarla de forma sistemática y continua",
+      "Una investigación realizada por especialistas externos sobre los docentes",
+      "Un proyecto de investigación que realizan los estudiantes en el aula"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "La 'pedagogía culturalmente relevante' (Ladson-Billings) propone que:",
+    "options": [
+      "Solo se deben enseñar contenidos de la cultura dominante para integrar a los estudiantes",
+      "La instrucción debe conectar con las experiencias culturales de los estudiantes para potenciar su rendimiento y conciencia crítica",
+      "La cultura de los estudiantes es un obstáculo para el aprendizaje académico",
+      "Los docentes deben ignorar las diferencias culturales para tratar a todos por igual"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Qué implica el 'pensamiento de orden superior' (HOTS) en el diseño curricular?",
+    "options": [
+      "Enseñar contenidos de alta complejidad sin considerar el nivel de los estudiantes",
+      "Diseñar actividades que demanden analizar, evaluar y crear, superando la simple memorización y comprensión",
+      "Ordenar los contenidos de mayor a menor dificultad en la planificación",
+      "Evaluar solo a los estudiantes con mayor rendimiento académico"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "En el marco del MESCP, ¿cómo se articula la 'producción de conocimiento' con la transformación social?",
+    "options": [
+      "La producción de conocimiento es un fin en sí mismo, independiente del contexto social",
+      "El conocimiento producido en el proceso educativo debe contribuir a la transformación de la comunidad y responder a sus necesidades concretas",
+      "La transformación social es responsabilidad exclusiva de los políticos, no de la educación",
+      "La producción de conocimiento solo tiene valor si genera beneficios económicos individuales"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Cuál es la crítica de Illich a la 'escuela' en su obra 'La sociedad desescolarizada'?",
+    "options": [
+      "Que las escuelas necesitan más tecnología y recursos materiales",
+      "Que la institución escolar genera dependencia, confunde el proceso con el producto y limita el aprendizaje autónomo y significativo",
+      "Que los docentes no están suficientemente formados para enseñar",
+      "Que el currículo escolar es demasiado flexible y poco estructurado"
+    ],
+    "answer": 1,
+    "category": "dificil",
+    "difficulty": "alta"
+  }
+]

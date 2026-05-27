@@ -1,0 +1,662 @@
+[
+  {
+    "question": "¿Cuál es el enfoque pedagógico que centra el aprendizaje en el estudiante y su contexto social?",
+    "options": [
+      "Conductismo clásico",
+      "Constructivismo social",
+      "Instrucción programada",
+      "Pedagogía tradicional"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "Según Vygotsky, la Zona de Desarrollo Próximo (ZDP) es la distancia entre:",
+    "options": [
+      "El nivel real y el nivel potencial con ayuda de otros",
+      "Lo que el alumno sabe y lo que ignora",
+      "La capacidad innata y la adquirida",
+      "El conocimiento teórico y el práctico"
+    ],
+    "answer": 0,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué tipo de evaluación se realiza DURANTE el proceso de aprendizaje para ajustar la enseñanza?",
+    "options": [
+      "Sumativa",
+      "Diagnóstica",
+      "Formativa",
+      "Certificadora"
+    ],
+    "answer": 2,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "El Modelo Educativo Sociocomunitario Productivo (MESCP) de Bolivia se fundamenta en:",
+    "options": [
+      "El capitalismo educativo globalizado",
+      "La cosmovisión de los pueblos indígenas y el Vivir Bien",
+      "El modelo europeo de competencias",
+      "La pedagogía conductista norteamericana"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "¿Qué es la metacognición en el proceso de enseñanza-aprendizaje?",
+    "options": [
+      "La capacidad de memorizar gran cantidad de contenidos",
+      "La conciencia y regulación del propio proceso de aprendizaje",
+      "El uso de tecnología en el aula",
+      "La evaluación del desempeño docente"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "Las estrategias didácticas activo-participativas tienen como principal propósito:",
+    "options": [
+      "Facilitar la memorización de contenidos",
+      "Que el docente exponga con más claridad",
+      "Promover la participación activa del estudiante en su propio aprendizaje",
+      "Reducir el tiempo de clases teóricas"
+    ],
+    "answer": 2,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "En el MESCP boliviano, los cuatro campos de saberes y conocimientos son:",
+    "options": [
+      "Matemáticas, Lenguaje, Ciencias Naturales, Ciencias Sociales",
+      "Cosmos y Pensamiento · Vida Tierra y Territorio · Ciencia Tecnología y Producción · Comunidad y Sociedad",
+      "Básico, Intermedio, Avanzado y Superior",
+      "Ciencias Exactas, Humanas, Naturales y Aplicadas"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "Las cuatro dimensiones de los Objetivos Holísticos del MESCP son:",
+    "options": [
+      "Conocer, Comprender, Aplicar, Evaluar",
+      "Ser, Saber, Hacer, Decidir",
+      "Pensar, Sentir, Actuar, Reflexionar",
+      "Individual, Social, Cultural, Productivo"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "La evaluación diagnóstica tiene como objetivo principal:",
+    "options": [
+      "Calificar al estudiante al inicio del año escolar",
+      "Conocer los saberes previos y necesidades del estudiante",
+      "Determinar quién aprueba o reprueba",
+      "Evaluar la metodología del docente"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "El pensamiento crítico en educación implica:",
+    "options": [
+      "Criticar todo sin ningún fundamento",
+      "Analizar, evaluar y cuestionar información con argumentos sólidos",
+      "Aceptar únicamente lo que dice el docente",
+      "Memorizar distintos puntos de vista sin análisis"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "El Aprendizaje Basado en Proyectos (ABP) se caracteriza por:",
+    "options": [
+      "Clases magistrales del docente durante toda la unidad",
+      "Los estudiantes resuelven situaciones reales integrando múltiples aprendizajes",
+      "Solo la evaluación mediante proyectos finales",
+      "La separación estricta entre asignaturas"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "Una retroalimentación efectiva debe ser:",
+    "options": [
+      "Solo al final del proceso de aprendizaje",
+      "Negativa para generar motivación extrínseca",
+      "Oportuna, específica y orientada a la mejora del aprendizaje",
+      "Únicamente de forma oral y nunca escrita"
+    ],
+    "answer": 2,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "¿Qué es el currículo oculto en educación?",
+    "options": [
+      "El programa secreto del Ministerio de Educación",
+      "Aprendizajes no explícitos transmitidos por la cultura escolar, normas y relaciones",
+      "Las materias optativas no declaradas en el currículo oficial",
+      "El programa de acceso restringido para docentes"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "alta"
+  },
+  {
+    "question": "Según Piaget, la 'acomodación' consiste en:",
+    "options": [
+      "Integrar nueva información a esquemas mentales existentes sin cambiarlos",
+      "Modificar los esquemas mentales existentes para incorporar nueva información",
+      "Rechazar información que contradice los esquemas previos",
+      "Crear esquemas completamente nuevos sin referencia a los anteriores"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "alta"
+  },
+  {
+    "question": "El aprendizaje cooperativo se diferencia del colaborativo principalmente en que:",
+    "options": [
+      "Son exactamente lo mismo con distinto nombre",
+      "El cooperativo divide tareas con roles definidos; el colaborativo trabaja hacia una meta común sin roles fijos",
+      "El colaborativo es más estructurado y rígido que el cooperativo",
+      "El cooperativo solo aplica en educación primaria"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "alta"
+  },
+  {
+    "question": "La 'educación para la vida' en el MESCP implica:",
+    "options": [
+      "Enseñar exclusivamente contenidos académicos abstractos",
+      "Vincular los aprendizajes con problemas reales de la comunidad y la cotidianidad",
+      "Preparar exclusivamente para el ingreso a la universidad",
+      "Seguir el currículo europeo adaptado a Bolivia"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué es la inteligencia emocional en el contexto educativo?",
+    "options": [
+      "El coeficiente intelectual medido en pruebas estandarizadas",
+      "La capacidad de reconocer, comprender y gestionar emociones propias y ajenas",
+      "El nivel de rendimiento académico en todas las materias",
+      "La habilidad exclusiva para resolver problemas matemáticos"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "El método socrático aplicado en educación consiste en:",
+    "options": [
+      "Dictar la clase magistral sin interrupciones",
+      "Guiar al estudiante mediante preguntas para que construya su propio conocimiento",
+      "Imponer el conocimiento del docente como verdad absoluta",
+      "Realizar solo actividades prácticas sin reflexión teórica"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué significa 'aprendizaje significativo' según Ausubel?",
+    "options": [
+      "Aprendizaje que se memoriza con mucha repetición",
+      "Aprendizaje que se conecta con los conocimientos previos del estudiante de forma lógica",
+      "Aprendizaje que solo ocurre en contextos formales de educación",
+      "Aprendizaje que resulta de actividades extracurriculares"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "La planificación bimestral en el MESCP debe articular principalmente:",
+    "options": [
+      "Solo los contenidos curriculares nacionales establecidos",
+      "El Plan de Desarrollo Curricular con el contexto comunitario local",
+      "Solo actividades extracurriculares y eventos institucionales",
+      "Los horarios de clase anuales sin considerar el contexto"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cuál es la función principal de los momentos metodológicos en el MESCP?",
+    "options": [
+      "Organizar el tiempo libre de los estudiantes",
+      "Estructurar la clase en Práctica, Teoría, Valoración y Producción",
+      "Dividir los contenidos por niveles de dificultad",
+      "Separar la evaluación de la enseñanza"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "El rol del docente en el enfoque constructivista es principalmente:",
+    "options": [
+      "Transmitir el conocimiento como única fuente de saber",
+      "Mediador y facilitador del proceso de construcción del conocimiento",
+      "Evaluador exclusivo del rendimiento estudiantil",
+      "Administrador de contenidos del currículo nacional"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "¿Qué son las inteligencias múltiples según Howard Gardner?",
+    "options": [
+      "Los distintos niveles del coeficiente intelectual",
+      "La existencia de diversas formas de inteligencia más allá de la lógico-matemática y lingüística",
+      "Los diferentes estilos de personalidad de los estudiantes",
+      "Los niveles de rendimiento académico clasificados por materia"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "La evaluación sumativa se realiza principalmente para:",
+    "options": [
+      "Ajustar la enseñanza durante el proceso",
+      "Detectar problemas de aprendizaje a tiempo",
+      "Valorar los aprendizajes logrados al finalizar una etapa o proceso",
+      "Motivar al estudiante durante el proceso"
+    ],
+    "answer": 2,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "¿Qué es la transposición didáctica según Chevallard?",
+    "options": [
+      "La traducción de textos educativos a otros idiomas",
+      "El proceso de transformar el saber científico en saber enseñable en el aula",
+      "La adaptación de materiales para estudiantes con necesidades especiales",
+      "La transferencia de conocimientos entre docentes"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "alta"
+  },
+  {
+    "question": "En el MESCP, el concepto de 'producción' en el aprendizaje hace referencia a:",
+    "options": [
+      "Solo la producción industrial y económica con fines comerciales",
+      "La generación de productos tangibles e intangibles con valor comunitario y social",
+      "Únicamente trabajos manuales artesanales tradicionales",
+      "La producción exclusiva de textos escritos académicos"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué implica el principio de 'educación intra-intercultural' en Bolivia?",
+    "options": [
+      "Enseñar solo las culturas indígenas bolivianas",
+      "El diálogo e interacción entre las culturas de los pueblos originarios y otras culturas del mundo",
+      "Prohibir la enseñanza de culturas extranjeras",
+      "Imponer una cultura única en todo el sistema educativo"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "Las Necesidades Educativas Especiales (NEE) requieren en el aula:",
+    "options": [
+      "Separar completamente a estos estudiantes del aula regular",
+      "Adaptaciones curriculares y metodológicas para garantizar su inclusión y aprendizaje",
+      "Ignorar sus dificultades para que aprendan por cuenta propia",
+      "Reducir significativamente los contenidos a trabajar"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "¿Qué es el aprendizaje por descubrimiento según Bruner?",
+    "options": [
+      "El aprendizaje que resulta de escuchar la explicación del docente",
+      "El proceso en que el estudiante construye activamente el conocimiento mediante la exploración",
+      "La memorización de hechos y datos sin comprensión real",
+      "El aprendizaje que ocurre solo fuera del aula"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "El 'currículo en espiral' de Bruner propone que:",
+    "options": [
+      "Los temas se enseñan una sola vez de lo simple a lo complejo",
+      "Los conceptos se reintroducen progresivamente en distintos niveles con mayor profundidad",
+      "Las materias rotan semanalmente sin relación entre ellas",
+      "Es un currículo diseñado exclusivamente para escuelas rurales"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "La técnica del 'aula invertida' o flipped classroom consiste en:",
+    "options": [
+      "Que los estudiantes enseñen la clase al docente",
+      "Los estudiantes estudian el contenido en casa y el aula se usa para actividades prácticas y reflexión",
+      "Invertir el orden de las materias durante el semestre",
+      "Que el docente evalúe antes de enseñar el contenido"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué es la gamificación en educación?",
+    "options": [
+      "Jugar videojuegos durante las clases como actividad libre",
+      "Aplicar mecánicas y elementos de juego en contextos educativos para motivar el aprendizaje",
+      "Sustituir todas las evaluaciones por juegos recreativos",
+      "Enseñar a los estudiantes a crear videojuegos"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "El portafolio como instrumento de evaluación permite principalmente:",
+    "options": [
+      "Calificar rápidamente a los estudiantes",
+      "Evidenciar el proceso y la evolución del aprendizaje del estudiante a lo largo del tiempo",
+      "Comparar estudiantes entre sí para establecer rankings",
+      "Reducir la carga de trabajo del docente"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué son los estilos de aprendizaje según el modelo VARK?",
+    "options": [
+      "Los niveles de inteligencia de los estudiantes",
+      "Las preferencias individuales para recibir información: Visual, Auditivo, Lector/Escritor y Kinestésico",
+      "Los distintos ritmos de aprendizaje en el aula",
+      "Las estrategias que usa el docente para enseñar"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "La educación inclusiva implica principalmente:",
+    "options": [
+      "Crear escuelas especiales separadas para estudiantes con discapacidad",
+      "Garantizar el acceso, participación y aprendizaje de TODOS los estudiantes en el aula regular",
+      "Solo adaptar los materiales físicos del aula",
+      "Reducir los contenidos para todos para que nadie quede excluido"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "¿Qué es la rúbrica como instrumento de evaluación?",
+    "options": [
+      "Una lista de cotejo con solo dos opciones: logrado o no logrado",
+      "Una escala descriptiva que detalla los criterios y niveles de desempeño esperados",
+      "Un examen de opción múltiple con criterios de corrección",
+      "Un registro anecdótico de las conductas del estudiante"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "El enfoque por competencias en educación propone:",
+    "options": [
+      "Enseñar solo conocimientos teóricos y conceptuales",
+      "Integrar conocimientos, habilidades y actitudes para resolver situaciones de la vida real",
+      "Eliminar la evaluación de conocimientos teóricos",
+      "Separar la teoría de la práctica en todo momento"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué es la zona de confort en el aprendizaje y por qué se debe superar?",
+    "options": [
+      "Es la zona donde el estudiante aprende mejor, por lo que se debe mantener",
+      "Es el espacio conocido y cómodo; superarla implica enfrentar desafíos que generan aprendizaje real",
+      "Es un concepto negativo que debe eliminarse completamente",
+      "Es la zona donde el docente se siente cómodo enseñando"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "La evaluación auténtica se diferencia de la tradicional porque:",
+    "options": [
+      "Usa solo exámenes escritos formales estandarizados",
+      "Evalúa mediante tareas y situaciones del mundo real que demuestran comprensión genuina",
+      "Es más fácil de aplicar que la evaluación tradicional",
+      "Solo evalúa conocimientos conceptuales"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Qué es el aprendizaje situado según Lave y Wenger?",
+    "options": [
+      "El aprendizaje que solo ocurre sentado en el aula",
+      "El aprendizaje que es inseparable del contexto social, cultural y de la práctica donde se realiza",
+      "El aprendizaje en ambientes virtuales y plataformas digitales",
+      "El aprendizaje que depende exclusivamente de la instrucción del docente"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "alta"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre enseñanza y aprendizaje?",
+    "options": [
+      "Son el mismo proceso visto desde distintos ángulos sin diferencia real",
+      "La enseñanza es la acción del docente; el aprendizaje es el cambio que ocurre en el estudiante",
+      "El aprendizaje ocurre solo en la escuela; la enseñanza también fuera de ella",
+      "La enseñanza es activa y el aprendizaje siempre pasivo"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "¿Qué se entiende por 'diferenciación curricular' en el aula?",
+    "options": [
+      "Dar exámenes distintos a cada estudiante sin criterio pedagógico",
+      "Adaptar los contenidos, procesos y productos de aprendizaje a las diversas necesidades de los estudiantes",
+      "Separar a los estudiantes por nivel de rendimiento en grupos fijos",
+      "Tener un currículo completamente diferente para cada escuela"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "La taxonomía de Bloom (revisada por Anderson) clasifica los niveles cognitivos de menor a mayor como:",
+    "options": [
+      "Recordar, Comprender, Aplicar, Analizar, Evaluar, Crear",
+      "Memorizar, Entender, Practicar, Reflexionar, Juzgar, Innovar",
+      "Conocer, Saber, Hacer, Pensar, Valorar, Producir",
+      "Básico, Elemental, Intermedio, Avanzado, Superior, Experto"
+    ],
+    "answer": 0,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué es el andamiaje (scaffolding) en el proceso de enseñanza?",
+    "options": [
+      "El uso de pizarras y materiales físicos en el aula",
+      "El apoyo temporal y ajustado que brinda el docente para que el estudiante alcance logros que aún no puede hacer solo",
+      "La estructura física del aula de clases",
+      "El conjunto de evaluaciones sumativas del trimestre"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "La motivación intrínseca en el aprendizaje se refiere a:",
+    "options": [
+      "Aprender para obtener notas altas y premios externos",
+      "El impulso interno que lleva al estudiante a aprender por el placer y el interés genuino",
+      "La motivación generada por la presión de los padres",
+      "El estímulo externo que proporciona el docente"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "¿Qué es la coevaluación en el proceso educativo?",
+    "options": [
+      "La evaluación que realiza el docente sobre el docente",
+      "La evaluación que realizan los estudiantes entre pares según criterios establecidos",
+      "La evaluación que hace el director sobre el docente",
+      "La autoevaluación individual de cada estudiante"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "El Plan de Desarrollo Curricular (PDC) en el MESCP debe contener:",
+    "options": [
+      "Solo la lista de contenidos a enseñar en el bimestre",
+      "Objetivo Holístico, contenidos, orientaciones metodológicas, recursos, evaluación y criterios de evaluación",
+      "Solo las actividades de evaluación final del bimestre",
+      "Únicamente el cronograma de actividades extracurriculares"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué es la educación popular según Paulo Freire?",
+    "options": [
+      "La educación que se imparte en escuelas públicas gratuitas",
+      "Una propuesta pedagógica que parte de la realidad y experiencia del pueblo para generar conciencia crítica",
+      "La educación enfocada en temas populares de entretenimiento",
+      "La enseñanza de cultura popular y folklórica"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "alta"
+  },
+  {
+    "question": "La gestión del aula incluye principalmente:",
+    "options": [
+      "Solo el control disciplinario de los estudiantes",
+      "La organización del espacio, el tiempo, los recursos y las relaciones para favorecer el aprendizaje",
+      "Únicamente la distribución de los materiales didácticos",
+      "Solo la elaboración de normas de convivencia"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "¿Qué es la resiliencia en el contexto educativo?",
+    "options": [
+      "La capacidad de memorizar contenidos difíciles",
+      "La capacidad de adaptarse y sobreponerse a situaciones adversas en el proceso de aprendizaje",
+      "La habilidad para resolver problemas matemáticos complejos",
+      "La resistencia física durante actividades deportivas"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "El aprendizaje por observación o modelado, según Bandura, plantea que:",
+    "options": [
+      "Los estudiantes solo aprenden de sus errores propios",
+      "Los estudiantes aprenden observando e imitando la conducta de modelos significativos",
+      "El aprendizaje solo ocurre mediante refuerzo positivo o negativo",
+      "La observación no influye en el aprendizaje de conductas"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué es el pensamiento divergente en el contexto educativo?",
+    "options": [
+      "El pensamiento que sigue un único camino lógico hacia una respuesta correcta",
+      "La capacidad de generar múltiples ideas, soluciones y posibilidades creativas ante un problema",
+      "La habilidad de memorizar información de forma rápida",
+      "El pensamiento que se desvía de los objetivos de aprendizaje"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "La 'clase invertida' o Flipped Classroom busca principalmente:",
+    "options": [
+      "Que los estudiantes enseñen al docente",
+      "Transferir la instrucción directa fuera del aula para usar el tiempo en clase en actividades prácticas y de aplicación",
+      "Invertir el sistema de evaluación",
+      "Que el docente prepare clases desde casa"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué significa TIC en el contexto educativo boliviano?",
+    "options": [
+      "Técnicas de Instrucción Curricular",
+      "Tecnologías de la Información y Comunicación aplicadas a la educación",
+      "Talleres de Innovación y Creatividad",
+      "Técnicas de Integración Comunitaria"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  },
+  {
+    "question": "La educación emocional en el aula tiene como propósito:",
+    "options": [
+      "Reemplazar los contenidos académicos por actividades afectivas",
+      "Desarrollar competencias emocionales que favorezcan el bienestar y el aprendizaje integral",
+      "Evitar que los estudiantes expresen sus emociones en el aula",
+      "Solo trabajar con estudiantes que tienen problemas conductuales"
+    ],
+    "answer": 1,
+    "category": "pedagogia",
+    "difficulty": "baja"
+  }
+]

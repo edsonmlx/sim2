@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="theme-color" content="#0A0A0A">
+  <link rel="manifest" href="manifest.json">
+  <title>Menú · SimDocente 2026</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    .hero {
+      background: var(--negro); padding: 20px 16px 30px;
+      position: relative; overflow: hidden;
+    }
+    .hero::after {
+      content:''; position:absolute; top:-80px; right:-80px;
+      width:260px; height:260px;
+      background:radial-gradient(circle,rgba(204,0,0,.22) 0%,transparent 68%);
+      pointer-events:none;
+    }
+    .hero-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:18px; }
+    .hero-brand { display:flex; align-items:center; gap:10px; }
+    .hero-ico { width:38px; height:38px; background:var(--rojo); border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:18px; }
+    .hero-brand-name { font-family:'Barlow Condensed',sans-serif; font-size:17px; font-weight:800; color:#fff; line-height:1; }
+    .hero-brand-sub  { font-size:10px; color:rgba(255,255,255,.38); letter-spacing:1px; text-transform:uppercase; }
+    .hero-acts { display:flex; gap:8px; }
+    .icon-btn { width:36px; height:36px; border:none; cursor:pointer; background:rgba(255,255,255,.1); color:#fff; border-radius:9px; font-size:16px; display:flex; align-items:center; justify-content:center; transition:var(--ease); }
+    .icon-btn:hover { background:rgba(255,255,255,.2); }
+    .hero-body { position:relative; z-index:1; }
+    .hero-greeting { font-size:12px; color:rgba(255,255,255,.4); margin-bottom:5px; }
+    .hero-title { font-family:'Barlow Condensed',sans-serif; font-size:29px; font-weight:800; color:#fff; line-height:1.15; margin-bottom:10px; }
+    .hero-title em { color:#FF4444; font-style:normal; }
+    .hero-pills { display:flex; gap:7px; flex-wrap:wrap; }
+    .pill { display:flex; align-items:center; gap:5px; background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.1); padding:5px 12px; border-radius:20px; font-size:12px; color:rgba(255,255,255,.6); }
+    .pill strong { color:#fff; }
+
+    /* Stats */
+    .stats-row { display:grid; grid-template-columns:repeat(3,1fr); gap:0; background:var(--border); margin:0 16px; border-radius:14px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,.1); position:relative; z-index:10; margin-top:-14px; }
+    .stat-box { background:var(--bg-card); padding:14px 8px; text-align:center; }
+    .stat-box:not(:last-child) { border-right:1px solid var(--border); }
+    .stat-n { font-family:'Barlow Condensed',sans-serif; font-size:24px; font-weight:800; color:var(--rojo); line-height:1; }
+    .stat-l { font-size:10px; color:var(--text-sub); text-transform:uppercase; letter-spacing:.5px; margin-top:4px; }
+
+    /* Secciones */
+    .sec { padding:20px 16px 0; }
+    .sec-hdr { display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
+    .sec-title { font-size:13px; font-weight:800; color:var(--text); letter-spacing:.2px; }
+    .sec-sub { font-size:11px; color:var(--text-sub); }
+
+    /* Card Oficial grande */
+    .card-oficial {
+      background:var(--negro); border-radius:16px; padding:18px;
+      margin-bottom:10px; cursor:pointer; position:relative; overflow:hidden;
+      transition:var(--ease); border:2px solid rgba(204,0,0,.45);
+    }
+    .card-oficial::before {
+      content:''; position:absolute; top:-50px; right:-50px;
+      width:180px; height:180px;
+      background:radial-gradient(circle,rgba(204,0,0,.3) 0%,transparent 70%);
+      pointer-events:none;
+    }
+    .card-oficial:active { transform:scale(.985); }
+    .card-of-top { display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px; }
+    .card-of-ico { width:52px; height:52px; background:var(--rojo); border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:24px; box-shadow:0 6px 16px rgba(204,0,0,.4); }
+    .of-badge { background:rgba(204,0,0,.25); border:1px solid rgba(204,0,0,.5); color:#FF6060; font-size:10px; font-weight:800; padding:4px 10px; border-radius:20px; letter-spacing:1px; text-transform:uppercase; }
+    .card-of-name { font-family:'Barlow Condensed',sans-serif; font-size:22px; font-weight:800; color:#fff; margin-bottom:4px; }
+    .card-of-desc { font-size:12px; color:rgba(255,255,255,.45); line-height:1.5; }
+    .of-chips { display:flex; gap:7px; flex-wrap:wrap; margin-top:12px; }
+    .of-chip { font-size:11px; font-weight:600; padding:4px 10px; border-radius:8px; background:rgba(255,255,255,.08); color:rgba(255,255,255,.6); }
+    .of-chip.hl { background:rgba(204,0,0,.25); color:#FF8080; }
+    .of-chip.gr { background:rgba(0,150,80,.25); color:#60D090; }
+
+    /* Separador de sección */
+    .sec-divider {
+      display:flex; align-items:center; gap:10px;
+      font-size:11px; font-weight:800; color:var(--text-sub);
+      text-transform:uppercase; letter-spacing:1.5px;
+      margin-bottom:10px;
+    }
+    .sec-divider::before, .sec-divider::after {
+      content:''; flex:1; height:1px; background:var(--border);
+    }
+
+    /* Cards grilla 2 cols */
+    .cards-grid { display:grid; grid-template-columns:1fr 1fr; gap:9px; margin-bottom:9px; }
+    .card-sm {
+      background:var(--bg-card); border:1.5px solid var(--border);
+      border-radius:14px; padding:14px 13px;
+      cursor:pointer; transition:var(--ease);
+      position:relative; overflow:hidden;
+    }
+    .card-sm::before { content:''; position:absolute; left:0; top:0; bottom:0; width:3px; background:var(--c,var(--rojo)); border-radius:0 2px 2px 0; }
+    .card-sm:active { transform:scale(.97); }
+    .card-sm:hover  { border-color:var(--c,var(--rojo)); }
+    .card-sm-ico { font-size:24px; margin-bottom:10px; width:44px; height:44px; background:var(--cb,rgba(204,0,0,.1)); border-radius:11px; display:flex; align-items:center; justify-content:center; }
+    .card-sm-name { font-size:13px; font-weight:800; color:var(--text); margin-bottom:4px; line-height:1.2; }
+    .card-sm-desc { font-size:11px; color:var(--text-sub); line-height:1.35; }
+    .card-sm-foot { display:flex; align-items:center; justify-content:space-between; margin-top:9px; }
+    .card-sm-qs   { font-size:12px; font-weight:700; color:var(--c,var(--rojo)); }
+    .card-sm-time { font-size:11px; color:var(--text-sub); }
+
+    /* Card ancho completo */
+    .card-full {
+      background:var(--bg-card); border:1.5px solid var(--border);
+      border-radius:14px; padding:14px;
+      display:flex; align-items:center; gap:13px;
+      cursor:pointer; transition:var(--ease); margin-bottom:9px;
+      position:relative; overflow:hidden;
+    }
+    .card-full::before { content:''; position:absolute; left:0; top:0; bottom:0; width:3px; background:var(--c,var(--rojo)); }
+    .card-full:active { transform:scale(.985); }
+    .card-full:hover { border-color:var(--c,var(--rojo)); }
+    .card-full-ico { width:46px; height:46px; border-radius:12px; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-size:22px; background:var(--cb,rgba(204,0,0,.1)); }
+    .card-full-body { flex:1; min-width:0; }
+    .card-full-name { font-size:14px; font-weight:800; color:var(--text); margin-bottom:3px; }
+    .card-full-desc { font-size:11px; color:var(--text-sub); line-height:1.4; }
+    .card-full-right { flex-shrink:0; text-align:right; }
+    .card-full-qs   { font-size:13px; font-weight:800; color:var(--c,var(--rojo)); }
+    .card-full-time { font-size:11px; color:var(--text-sub); }
+
+    /* Resultados recientes */
+    .result-row { display:flex; align-items:center; gap:11px; padding:11px 14px; background:var(--bg-card); border:1.5px solid var(--border); border-radius:12px; margin-bottom:7px; }
+    .result-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+    .result-dot.pass { background:#00B860; }
+    .result-dot.fail { background:var(--rojo); }
+    .result-info { flex:1; min-width:0; }
+    .result-mode { font-size:13px; font-weight:700; color:var(--text); }
+    .result-meta { font-size:11px; color:var(--text-sub); margin-top:1px; }
+    .result-score { font-family:'Barlow Condensed',sans-serif; font-size:22px; font-weight:800; flex-shrink:0; }
+    .result-score.pass { color:#00B860; } .result-score.fail { color:var(--rojo); }
+
+    .empty-box { background:var(--bg-card); border:1.5px solid var(--border); border-radius:12px; padding:22px 16px; text-align:center; }
+    .empty-box p { font-size:13px; color:var(--text-sub); line-height:1.5; }
+
+    /* Tip */
+    .tip-bar { background:var(--bg-card); border:1.5px solid var(--border); border-left:4px solid var(--rojo); border-radius:12px; padding:13px 15px; display:flex; gap:11px; align-items:flex-start; }
+    .tip-text { font-size:13px; color:var(--text-sub); line-height:1.5; }
+    .tip-text strong { color:var(--rojo); }
+  </style>
+</head>
+<body>
+
+<div id="loader"><div class="loader-icon">🎓</div><div class="loader-ring"></div><div class="loader-txt">Cargando...</div></div>
+<div id="toast"></div>
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal-card">
+    <div class="modal-icon" id="modal-icon">⚠️</div>
+    <div class="modal-title" id="modal-title"></div>
+    <div class="modal-desc"  id="modal-desc"></div>
+    <div class="modal-btns">
+      <button class="btn btn-red"   id="modal-ok">Confirmar</button>
+      <button class="btn btn-ghost" id="modal-cancel">Cancelar</button>
+    </div>
+  </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-top">
+    <div class="hero-brand">
+      <div class="hero-ico">🎓</div>
+      <div>
+        <div class="hero-brand-name">SimDocente 2026</div>
+        <div class="hero-brand-sub">Bolivia · Ascenso Docente</div>
+      </div>
+    </div>
+    <div class="hero-acts">
+      <button class="icon-btn" id="btn-dark">🌙</button>
+      <button class="icon-btn" id="btn-logout">🚪</button>
+    </div>
+  </div>
+  <div class="hero-body">
+    <div class="hero-greeting">👋 Bienvenido, <strong id="usr-name" style="color:rgba(255,255,255,.75)">Docente</strong></div>
+    <h1 class="hero-title">Prepárate para el<br><em>Ascenso 2026</em></h1>
+    <div class="hero-pills">
+      <div class="pill">🎯 <strong id="hp-exams">0</strong> exámenes</div>
+      <div class="pill">📊 Promedio <strong id="hp-avg">--%</strong></div>
+      <div class="pill">🏆 Mejor <strong id="hp-best">--%</strong></div>
+    </div>
+  </div>
+</div>
+
+<!-- Stats strip -->
+<div class="stats-row">
+  <div class="stat-box"><div class="stat-n" id="s-exams">0</div><div class="stat-l">Exámenes</div></div>
+  <div class="stat-box"><div class="stat-n" id="s-avg">--%</div><div class="stat-l">Promedio</div></div>
+  <div class="stat-box"><div class="stat-n" id="s-best">--%</div><div class="stat-l">Mejor</div></div>
+</div>
+
+<!-- ══════════ MODOS ══════════ -->
+<div class="sec" style="margin-top:22px">
+  <div class="sec-hdr">
+    <div class="sec-title">🗂 Modos de práctica</div>
+    <div class="sec-sub">7 modos disponibles</div>
+  </div>
+
+  <!-- OFICIAL GRANDE -->
+  <div class="card-oficial" id="card-ascenso_real">
+    <div class="card-of-top">
+      <div class="card-of-ico">🎯</div>
+      <span class="of-badge">⭐ Examen Oficial</span>
+    </div>
+    <div class="card-of-name">Examen Ascenso Real 2026</div>
+    <div class="card-of-desc">Simulación exacta del examen oficial según normativa del Ministerio de Educación de Bolivia</div>
+    <div class="of-chips">
+      <span class="of-chip hl">90 preguntas</span>
+      <span class="of-chip hl">2 horas</span>
+      <span class="of-chip gr">60% Pedagógico</span>
+      <span class="of-chip">30% Normativa</span>
+      <span class="of-chip">10% Encuesta</span>
+      <span class="of-chip">📅 18 de julio</span>
+    </div>
+  </div>
+
+  <!-- SECCIÓN: PRÁCTICA POR CATEGORÍA -->
+  <div class="sec-divider">Práctica por categoría</div>
+
+  <div class="cards-grid">
+    <div class="card-sm" id="card-solo_pedagogico" style="--c:#0064CC;--cb:rgba(0,100,204,.1)">
+      <div class="card-sm-ico" style="background:rgba(0,100,204,.12)">📚</div>
+      <div class="card-sm-name">Textos Pedagógicos</div>
+      <div class="card-sm-desc">Sacristán, UNESCO, neuroaprendizaje, estilos de aprendizaje</div>
+      <div class="card-sm-foot">
+        <span class="card-sm-qs">40 preg.</span>
+        <span class="card-sm-time">⏱ 50 min</span>
+      </div>
+    </div>
+
+    <div class="card-sm" id="card-solo_normativa" style="--c:#009650;--cb:rgba(0,150,80,.1)">
+      <div class="card-sm-ico" style="background:rgba(0,150,80,.12)">⚖️</div>
+      <div class="card-sm-name">Normativa Básica</div>
+      <div class="card-sm-desc">DS 4688, Ley 348, Ley 223, protocolos</div>
+      <div class="card-sm-foot">
+        <span class="card-sm-qs" style="color:#009650">30 preg.</span>
+        <span class="card-sm-time">⏱ 40 min</span>
+      </div>
+    </div>
+
+    <div class="card-sm" id="card-solo_administrativos" style="--c:#7B2FBE;--cb:rgba(123,47,190,.1)">
+      <div class="card-sm-ico" style="background:rgba(123,47,190,.12)">🗂️</div>
+      <div class="card-sm-name">Administrativos</div>
+      <div class="card-sm-desc">Reglamentos, convivencia, resolución de conflictos</div>
+      <div class="card-sm-foot">
+        <span class="card-sm-qs" style="color:#7B2FBE">20 preg.</span>
+        <span class="card-sm-time">⏱ 25 min</span>
+      </div>
+    </div>
+
+    <div class="card-sm" id="card-solo_encuesta" style="--c:#E07800;--cb:rgba(255,140,0,.1)">
+      <div class="card-sm-ico" style="background:rgba(255,140,0,.12)">📋</div>
+      <div class="card-sm-name">Encuesta Educativa</div>
+      <div class="card-sm-desc">10 puntos del examen · 20 preguntas tipo encuesta</div>
+      <div class="card-sm-foot">
+        <span class="card-sm-qs" style="color:#E07800">15 preg.</span>
+        <span class="card-sm-time">⏱ 20 min</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN: SIMULADORES -->
+  <div class="sec-divider" style="margin-top:4px">Simuladores extras</div>
+
+  <div class="card-full" id="card-aleatorio" style="--c:#E07800;--cb:rgba(255,140,0,.1)">
+    <div class="card-full-ico" style="background:rgba(255,140,0,.12)">🎲</div>
+    <div class="card-full-body">
+      <div class="card-full-name">Simulador Aleatorio</div>
+      <div class="card-full-desc">Mezcla completa de todas las categorías de forma aleatoria</div>
+    </div>
+    <div class="card-full-right">
+      <div class="card-full-qs" style="color:#E07800">50 preg.</div>
+      <div class="card-full-time">60 min</div>
+    </div>
+  </div>
+
+  <div class="card-full" id="card-dificil" style="--c:#CC0000;--cb:rgba(204,0,0,.1)">
+    <div class="card-full-ico" style="background:rgba(204,0,0,.12)">🔥</div>
+    <div class="card-full-body">
+      <div class="card-full-name">Modo Difícil</div>
+      <div class="card-full-desc">Análisis crítico, teorías complejas y alta exigencia académica</div>
+    </div>
+    <div class="card-full-right">
+      <div class="card-full-qs">30 preg.</div>
+      <div class="card-full-time">45 min</div>
+    </div>
+  </div>
+
+  <!-- Historial -->
+  <div class="card-full" id="card-historial" style="--c:#555;--cb:rgba(100,100,100,.08); border-style:dashed">
+    <div class="card-full-ico" style="background:rgba(100,100,100,.1)">📊</div>
+    <div class="card-full-body">
+      <div class="card-full-name">Historial de Resultados</div>
+      <div class="card-full-desc">Ver todos tus exámenes, estadísticas y ranking</div>
+    </div>
+    <span style="font-size:18px;color:var(--text-sub);flex-shrink:0">→</span>
+  </div>
+</div>
+
+<!-- Últimos resultados -->
+<div class="sec" style="margin-top:20px">
+  <div class="sec-hdr">
+    <div class="sec-title">📋 Últimos resultados</div>
+    <a href="history.html" style="font-size:12px;color:var(--rojo);font-weight:700;text-decoration:none">Ver todos →</a>
+  </div>
+  <div id="results-list"></div>
+</div>
+
+<!-- Tip oficial -->
+<div class="sec" style="padding-bottom:36px">
+  <div class="tip-bar">
+    <span style="font-size:20px;flex-shrink:0">📌</span>
+    <div class="tip-text">
+      Examen oficial: <strong>18 de julio 2026</strong> · 90 preguntas · <strong>60% pedagógico</strong> · 30% normativa · 10% encuesta. Puntaje mínimo aprobatorio: <strong>60%</strong>.
+    </div>
+  </div>
+</div>
+
+<script src="js/storage.js"></script>
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+  if (!requireAuth('login.html')) return;
+  applyTheme();
+  renderStats();
+  renderLastResults();
+  hideLoader();
+});
+
+document.getElementById('btn-dark').addEventListener('click', toggleTheme);
+document.getElementById('btn-logout').addEventListener('click', () => {
+  showModal('¿Cerrar sesión?','Tu historial quedará guardado localmente.','👋',
+    () => { Storage.clearSession(); window.location.href='login.html'; }, ()=>{}
+  );
+});
+
+// Navegar a examen — todos los modos
+const modeIds = ['ascenso_real','solo_pedagogico','solo_normativa','solo_administrativos','solo_encuesta','aleatorio','dificil'];
+modeIds.forEach(id => {
+  document.getElementById(`card-${id}`)?.addEventListener('click', () => {
+    Storage.setPending(id);
+    window.location.href = 'exam.html';
+  });
+});
+document.getElementById('card-historial')?.addEventListener('click', () => {
+  window.location.href = 'history.html';
+});
+
+function renderStats() {
+  const st = Storage.getStats();
+  document.getElementById('hp-exams').textContent = st.totalExams;
+  document.getElementById('hp-avg').textContent   = st.totalExams ? `${st.avgScore}%`  : '--%';
+  document.getElementById('hp-best').textContent  = st.totalExams ? `${st.bestScore}%` : '--%';
+  document.getElementById('s-exams').textContent  = st.totalExams;
+  document.getElementById('s-avg').textContent    = st.totalExams ? `${st.avgScore}%`  : '--%';
+  document.getElementById('s-best').textContent   = st.totalExams ? `${st.bestScore}%` : '--%';
+}
+
+function renderLastResults() {
+  const h = Storage.getHistory();
+  const box = document.getElementById('results-list');
+  if (!h.length) {
+    box.innerHTML = `<div class="empty-box"><div style="font-size:32px;margin-bottom:8px">📭</div><p>Aún no tienes exámenes completados.<br>Elige un modo para comenzar.</p></div>`;
+    return;
+  }
+  box.innerHTML = h.slice(0,4).map(r => `
+    <div class="result-row">
+      <div class="result-dot ${r.percentage>=60?'pass':'fail'}"></div>
+      <div class="result-info">
+        <div class="result-mode">${r.modeName||r.mode}</div>
+        <div class="result-meta">${r.date} · ${r.time} · ⏱ ${formatTime(r.timeUsed)}</div>
+      </div>
+      <div class="result-score ${r.percentage>=60?'pass':'fail'}">${r.percentage}%</div>
+    </div>
+  `).join('');
+}
+</script>
+<script>if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js');</script>
+</body>
+</html>

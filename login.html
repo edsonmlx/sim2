@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="theme-color" content="#0A0A0A">
+  <link rel="manifest" href="manifest.json">
+  <title>Ingresar · SimDocente 2026</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: var(--negro);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      min-height: 100vh; padding: 20px;
+      position: relative; overflow: hidden;
+    }
+
+    /* fondo sutil */
+    body::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image:
+        repeating-linear-gradient(45deg,  rgba(204,0,0,.04) 0, rgba(204,0,0,.04) 1px, transparent 1px, transparent 56px),
+        repeating-linear-gradient(-45deg, rgba(204,0,0,.04) 0, rgba(204,0,0,.04) 1px, transparent 1px, transparent 56px);
+      pointer-events: none;
+    }
+
+    .login-wrap {
+      width: 100%; max-width: 420px;
+      position: relative; z-index: 1;
+      animation: fadeUp .5s ease both;
+    }
+
+    .country-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(204,0,0,.15); border: 1px solid rgba(204,0,0,.3);
+      color: #FF4444; padding: 5px 13px; border-radius: 20px;
+      font-size: 11px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; margin-bottom: 18px;
+    }
+
+    .login-card {
+      background: #141414;
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 22px; padding: 36px 28px;
+      box-shadow: 0 28px 72px rgba(0,0,0,.55);
+    }
+
+    .login-logo {
+      width: 70px; height: 70px;
+      background: var(--rojo); border-radius: 17px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 30px; margin: 0 auto 18px;
+      box-shadow: 0 8px 24px rgba(204,0,0,.4);
+    }
+
+    .login-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 26px; font-weight: 800;
+      color: #fff; text-align: center; line-height: 1.2;
+      margin-bottom: 5px;
+    }
+
+    .login-sub {
+      font-size: 12px; color: rgba(255,255,255,.35);
+      text-align: center; margin-bottom: 28px; line-height: 1.4;
+    }
+
+    .lbl {
+      display: block; font-size: 11px; font-weight: 700;
+      color: rgba(255,255,255,.4); letter-spacing: 1px;
+      text-transform: uppercase; margin-bottom: 8px;
+    }
+
+    .input-wrap { position: relative; margin-bottom: 16px; }
+
+    .inp {
+      width: 100%;
+      background: rgba(255,255,255,.06);
+      border: 1.5px solid rgba(255,255,255,.1);
+      border-radius: 12px; color: #fff;
+      font-family: 'Barlow', sans-serif;
+      font-size: 16px; padding: 13px 46px 13px 16px;
+      outline: none; transition: var(--ease);
+      letter-spacing: 2px;
+    }
+    .inp:focus {
+      border-color: var(--rojo);
+      background: rgba(204,0,0,.08);
+      box-shadow: 0 0 0 4px rgba(204,0,0,.12);
+    }
+    .inp::placeholder { color: rgba(255,255,255,.2); letter-spacing: .5px; }
+
+    .eye-btn {
+      position: absolute; right: 13px; top: 50%;
+      transform: translateY(-50%);
+      background: none; border: none; cursor: pointer;
+      font-size: 17px; color: rgba(255,255,255,.3);
+      padding: 4px; line-height: 1; transition: var(--ease);
+    }
+    .eye-btn:hover { color: rgba(255,255,255,.6); }
+
+    .error-box {
+      background: rgba(204,0,0,.15);
+      border: 1px solid rgba(204,0,0,.3);
+      color: #FF6B6B; padding: 10px 14px;
+      border-radius: 9px; font-size: 13px;
+      margin-bottom: 14px; display: none;
+    }
+    .error-box.show { display: block; animation: shake .35s ease; }
+
+    @keyframes shake {
+      0%,100% { transform: translateX(0); }
+      25%      { transform: translateX(-7px); }
+      75%      { transform: translateX( 7px); }
+    }
+
+    .divider {
+      margin: 20px 0 16px;
+      border: none; border-top: 1px solid rgba(255,255,255,.07);
+    }
+
+    .footer-note {
+      text-align: center; font-size: 10px;
+      color: rgba(255,255,255,.15); letter-spacing: .5px;
+      margin-top: 18px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-icon">🎓</div>
+  <div class="loader-ring"></div>
+  <div class="loader-txt">Verificando sesión...</div>
+</div>
+
+<div id="toast"></div>
+
+<div class="login-wrap">
+  <div style="text-align:center">
+    <span class="country-badge">🇧🇴 Estado Plurinacional · 2026</span>
+  </div>
+
+  <div class="login-card">
+    <div class="login-logo">🎓</div>
+
+    <h1 class="login-title">Simulador Ascenso<br>Docente 2026</h1>
+    <p class="login-sub">Ministerio de Educación · Plataforma de Preparación</p>
+
+    <div class="error-box" id="error-box">❌ Contraseña incorrecta. Intenta de nuevo.</div>
+
+    <form id="login-form" autocomplete="off">
+      <label class="lbl" for="pw">Contraseña de acceso</label>
+      <div class="input-wrap">
+        <input type="password" id="pw" class="inp"
+          placeholder="Ingresa tu contraseña" required autocomplete="off">
+        <button type="button" class="eye-btn" id="eye">👁️</button>
+      </div>
+
+      <button type="submit" class="btn btn-red" id="btn-login">
+        🔓 Ingresar al simulador
+      </button>
+    </form>
+
+    <hr class="divider">
+
+    <div style="text-align:center">
+      <p style="font-size:11px;color:rgba(255,255,255,.18)">ACCESO EXCLUSIVO PARA DOCENTES PARTICIPANTES</p>
+    </div>
+  </div>
+
+  <p class="footer-note">Plataforma de preparación docente boliviana · Uso privado</p>
+</div>
+
+<script src="js/storage.js"></script>
+<script>
+  const PASSWORD = 'ascenso2026';
+
+  // Si ya tiene sesión activa → ir directo al menú
+  window.addEventListener('DOMContentLoaded', () => {
+    applyTheme();
+    if (Storage.getSession()) {
+      window.location.href = 'index.html';
+      return;
+    }
+    hideLoader();
+  });
+
+  // Toggle contraseña visible
+  document.getElementById('eye').addEventListener('click', () => {
+    const inp = document.getElementById('pw');
+    const eye = document.getElementById('eye');
+    inp.type = inp.type === 'password' ? 'text' : 'password';
+    eye.textContent = inp.type === 'password' ? '👁️' : '🙈';
+  });
+
+  // Submit login
+  document.getElementById('login-form').addEventListener('submit', e => {
+    e.preventDefault();
+    const pw     = document.getElementById('pw').value.trim();
+    const errBox = document.getElementById('error-box');
+    const btn    = document.getElementById('btn-login');
+
+    if (pw === PASSWORD) {
+      Storage.setSession({ user: 'Docente' });
+      btn.innerHTML = '✓ Accediendo...';
+      btn.style.background = '#009650';
+      btn.disabled = true;
+      setTimeout(() => window.location.href = 'index.html', 650);
+    } else {
+      errBox.classList.remove('show');
+      void errBox.offsetWidth; // reflow para reiniciar animación
+      errBox.classList.add('show');
+      document.getElementById('pw').value = '';
+      document.getElementById('pw').focus();
+      setTimeout(() => errBox.classList.remove('show'), 4000);
+    }
+  });
+</script>
+<script>if("serviceWorker"in navigator)navigator.serviceWorker.register("./sw.js");</script>
+</body>
+</html>

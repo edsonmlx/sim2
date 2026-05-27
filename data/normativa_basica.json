@@ -1,0 +1,188 @@
+[
+  {
+    "question": "¿Cuál es el objeto del Decreto Supremo N° 4688 - Reglamento del Escalafón Nacional del Servicio de Educación?",
+    "options": ["Regular el proceso de evaluación estudiantil anual","Establecer el régimen de la carrera docente, categorías, remuneraciones y ascensos del magisterio boliviano","Normar la construcción de infraestructura educativa","Regular el funcionamiento de las universidades públicas"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "DS 4688 - Reglamento Escalafón Nacional"
+  },
+  {
+    "question": "Según el DS 4688, ¿cuántas categorías comprende el Escalafón Nacional del Servicio de Educación?",
+    "options": ["5 categorías (de la primera a la quinta)","7 categorías (de la primera a la séptima)","10 categorías (de la primera a la décima)","12 categorías (de la primera a la duodécima)"],
+    "answer": 2, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "DS 4688 - Reglamento Escalafón Nacional"
+  },
+  {
+    "question": "¿Cuántos años de experiencia docente se requieren para pasar de primera a segunda categoría según el DS 4688?",
+    "options": ["1 año","2 años","3 años","5 años"],
+    "answer": 2, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "DS 4688 - Reglamento Escalafón Nacional"
+  },
+  {
+    "question": "Según el Reglamento del Escalafón DS 4688, el Ascenso de Categoría se produce mediante:",
+    "options": ["Solo antigüedad en el servicio sin evaluación","Examen de competencia, méritos y antigüedad según la convocatoria del Ministerio de Educación","Decisión directa del Director Distrital","Votación de los compañeros docentes del distrito"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "DS 4688 - Reglamento Escalafón Nacional"
+  },
+  {
+    "question": "¿Qué documento acredita la categoría docente en el sistema educativo boliviano?",
+    "options": ["El título profesional de la ESFM","El Ítem docente asignado por el Ministerio","El Diploma Escalafonal emitido por la autoridad competente","La resolución del Director Departamental"],
+    "answer": 2, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "DS 4688 - Reglamento Escalafón Nacional"
+  },
+  {
+    "question": "El Reglamento de Faltas y Sanciones clasifica las faltas docentes en:",
+    "options": ["Leves, graves y muy graves","Menores, medianas y mayores","Tipo A, Tipo B y Tipo C","Administrativas, pedagógicas y conductuales"],
+    "answer": 0, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Reglamento de Faltas y Sanciones"
+  },
+  {
+    "question": "Según el Reglamento de Faltas y Sanciones, el abandono injustificado del cargo por más de 3 días continuos se clasifica como falta:",
+    "options": ["Leve, con amonestación verbal","Grave, con descuento de haberes","Muy grave, que puede ameritar destitución","Administrativa menor, con llamada de atención escrita"],
+    "answer": 2, "category": "normativa_basica", "difficulty": "alta",
+    "fuente": "Reglamento de Faltas y Sanciones"
+  },
+  {
+    "question": "¿Cuál es la sanción para una falta leve según el Reglamento de Faltas y Sanciones del magisterio boliviano?",
+    "options": ["Descuento de haberes por 30 días","Suspensión temporal del cargo","Amonestación escrita con registro en el file personal","Destitución del cargo docente"],
+    "answer": 2, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Reglamento de Faltas y Sanciones"
+  },
+  {
+    "question": "Según el Protocolo de Prevención y Actuación ante situaciones de violencia en el ámbito educativo, ¿cuál es el primer paso ante una denuncia de violencia?",
+    "options": ["Investigar personalmente sin informar a nadie","Recepcionar y registrar la denuncia, garantizando la confidencialidad y seguridad de la víctima","Derivar directamente a la Policía sin intervención institucional","Convocar a reunión de todo el personal docente"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Protocolo de Prevención y Actuación"
+  },
+  {
+    "question": "El Protocolo de Prevención y Actuación establece que ante una situación de violencia contra un estudiante, el docente debe:",
+    "options": ["Resolver el conflicto directamente sin escalar a otras instancias","Reportar inmediatamente al Director de la Unidad Educativa y activar el protocolo institucional","Esperar a que los padres de familia se enteren por sus propios medios","Ignorar si el estudiante no quiere denunciar formalmente"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Protocolo de Prevención y Actuación"
+  },
+  {
+    "question": "La Guía de Identificación y Denuncia de Violencia Intrafamiliar define como violencia intrafamiliar:",
+    "options": ["Solo la violencia física entre cónyuges adultos","Todo acto de agresión física, psicológica, sexual o económica entre miembros de una familia o relación de pareja","Solo la violencia que deja marcas físicas visibles","Únicamente los conflictos que requieren intervención policial"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Guía de Identificación y Denuncia de Violencia Intrafamiliar"
+  },
+  {
+    "question": "Según la Guía de Violencia Intrafamiliar, cuando un docente detecta indicios de violencia en un estudiante, debe:",
+    "options": ["Confrontar directamente al agresor","Registrar las observaciones, brindar apoyo al estudiante y derivar a instancias especializadas según el protocolo","Hablar del caso públicamente para generar presión social","Esperar a que el estudiante pida ayuda por iniciativa propia"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Guía de Identificación y Denuncia de Violencia Intrafamiliar"
+  },
+  {
+    "question": "La Ley N° 223 de Personas con Discapacidad tiene como objeto principal:",
+    "options": ["Crear centros de educación especial separados para personas con discapacidad","Garantizar los derechos de las personas con discapacidad en condiciones de igualdad y equiparación de oportunidades","Establecer beneficios económicos exclusivos para personas con discapacidad severa","Regular solo el acceso a la infraestructura pública para personas en silla de ruedas"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Ley 223 - Personas con Discapacidad"
+  },
+  {
+    "question": "Según la Ley 223, ¿qué obligación tiene el sistema educativo respecto a las personas con discapacidad?",
+    "options": ["Derivarlas exclusivamente a escuelas especiales separadas","Garantizar su inclusión en el sistema educativo regular con los apoyos y adaptaciones necesarias","Eximirlas de todos los procesos de evaluación","Solo garantizar acceso físico a los edificios educativos"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Ley 223 - Personas con Discapacidad"
+  },
+  {
+    "question": "La Ley 223 define discapacidad como:",
+    "options": ["Una enfermedad crónica que impide el trabajo productivo","La interacción entre las deficiencias de una persona y las barreras del entorno que limitan su participación plena en igualdad de condiciones","Un estado permanente de incapacidad total para todas las actividades","Solo las limitaciones físicas o motoras visibles"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "alta",
+    "fuente": "Ley 223 - Personas con Discapacidad"
+  },
+  {
+    "question": "El Reglamento para el Fortalecimiento de la Educación Inclusiva en el SEP - Modalidad Indirecta tiene como propósito:",
+    "options": ["Crear un sistema educativo paralelo exclusivo para estudiantes con discapacidad","Normar la atención educativa inclusiva de estudiantes con discapacidad en unidades educativas regulares con apoyo especializado","Establecer cuotas de estudiantes con discapacidad por escuela","Solo regular el acceso de estudiantes con discapacidad visual"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Reglamento Educación Inclusiva SEP - Modalidad Indirecta"
+  },
+  {
+    "question": "Según el Reglamento de Educación Inclusiva, el Centro de Recursos Pedagógicos (CERP) tiene como función:",
+    "options": ["Atender exclusivamente a estudiantes en centros especializados separados","Brindar apoyo pedagógico especializado a docentes y estudiantes con discapacidad incluidos en el sistema regular","Reemplazar a las unidades educativas regulares en zonas rurales","Solo capacitar a docentes en lenguas de señas"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "alta",
+    "fuente": "Reglamento Educación Inclusiva SEP - Modalidad Indirecta"
+  },
+  {
+    "question": "¿Qué establece la Ley N° 348 (Ley Integral para Garantizar a las Mujeres una Vida Libre de Violencia) respecto al ámbito educativo?",
+    "options": ["Solo aplica al entorno familiar y doméstico, no al educativo","Obliga a las instituciones educativas a implementar medidas de prevención, detección y atención de la violencia contra las mujeres","Regula únicamente la violencia física en espacios públicos","Solo aplica a mujeres mayores de 18 años"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Ley 348 - Vida Libre de Violencia"
+  },
+  {
+    "question": "La Ley 348 define el 'feminicidio' como:",
+    "options": ["Cualquier homicidio donde la víctima sea mujer","El asesinato de una mujer por razones de género, en el contexto de relaciones de poder desiguales","Solo el asesinato de mujeres por sus parejas sentimentales","La muerte accidental de una mujer en el hogar"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "alta",
+    "fuente": "Ley 348 - Vida Libre de Violencia"
+  },
+  {
+    "question": "Según la Ley 348, la violencia psicológica incluye:",
+    "options": ["Solo el daño emocional que deja secuelas diagnosticadas clínicamente","Acciones de intimidación, humillación, manipulación, chantaje, aislamiento y control que generan daño emocional","Solo las amenazas verbales explícitas","Únicamente los casos de acoso laboral documentados"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Ley 348 - Vida Libre de Violencia"
+  },
+  {
+    "question": "¿En qué artículo de la Constitución Política del Estado se establece el derecho a la educación?",
+    "options": ["Artículo 17","Artículo 77","Artículo 100","Artículo 35"],
+    "answer": 0, "category": "normativa_basica", "difficulty": "baja",
+    "fuente": "CPE - Bolivia"
+  },
+  {
+    "question": "La Ley de Educación N° 070 'Avelino Siñani - Elizardo Pérez' fue promulgada en:",
+    "options": ["2006","2008","2010","2012"],
+    "answer": 2, "category": "normativa_basica", "difficulty": "baja",
+    "fuente": "Ley 070"
+  },
+  {
+    "question": "¿Cuántos subsistemas comprende el Sistema Educativo Plurinacional según la Ley 070?",
+    "options": ["2 subsistemas","3 subsistemas","4 subsistemas","5 subsistemas"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Ley 070"
+  },
+  {
+    "question": "El Estatuto del Docente boliviano regula principalmente:",
+    "options": ["Solo los salarios y bonos del magisterio","Los derechos, deberes, carrera docente, escalafón y régimen disciplinario del magisterio","Únicamente la formación inicial en las ESFM","Los planes y programas curriculares nacionales"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "baja",
+    "fuente": "Estatuto del Docente"
+  },
+  {
+    "question": "Según el Estatuto del Docente, ¿cuál es un derecho fundamental del docente boliviano?",
+    "options": ["Elegir libremente los contenidos a enseñar sin seguir el currículo","Acceder a la carrera docente, estabilidad laboral, ascenso y capacitación continua","No ser evaluado bajo ninguna circunstancia","Rechazar la asignación de cursos fuera de su especialidad sin consecuencias"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "baja",
+    "fuente": "Estatuto del Docente"
+  },
+  {
+    "question": "Según el Estatuto del Docente, es obligación del maestro/maestra boliviano/a:",
+    "options": ["Enseñar solo en el turno que prefiera sin importar necesidades institucionales","Cumplir con el calendario y horario escolar, planificar sus clases y participar en actividades institucionales","Solo evaluar a los estudiantes sin responsabilidad pedagógica adicional","Administrar los recursos económicos de la unidad educativa"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "baja",
+    "fuente": "Estatuto del Docente"
+  },
+  {
+    "question": "¿Qué es el ítem docente en el sistema educativo boliviano?",
+    "options": ["El código de identificación del estudiante en el sistema","La plaza o cargo docente asignada por el Estado con sus condiciones específicas de trabajo y remuneración","El número de horas de clase asignadas por semana","El código del libro de texto oficial"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "baja",
+    "fuente": "DS 4688 - Reglamento Escalafón Nacional"
+  },
+  {
+    "question": "La licencia por maternidad para docentes bolivianas tiene una duración de:",
+    "options": ["45 días con goce de haberes","60 días con goce de haberes","90 días con goce de haberes","120 días con goce de haberes"],
+    "answer": 2, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Estatuto del Docente"
+  },
+  {
+    "question": "Según la Ley 070, la duración mínima del año escolar es:",
+    "options": ["150 días hábiles","180 días hábiles","200 días hábiles","220 días hábiles"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Ley 070"
+  },
+  {
+    "question": "¿Cuál es la escala de calificación vigente en el sistema educativo boliviano según normativa?",
+    "options": ["1 a 5 puntos","0 a 10 puntos","0 a 100 puntos","A, B, C, D, F"],
+    "answer": 2, "category": "normativa_basica", "difficulty": "baja",
+    "fuente": "Ley 070 y Resoluciones Ministeriales"
+  },
+  {
+    "question": "El PROFOCOM (Programa de Formación Complementaria) fue creado para:",
+    "options": ["Formar docentes en universidades privadas","Complementar la formación de maestras y maestros en ejercicio para implementar el MESCP","Capacitar a directores en gestión administrativa","Formar técnicos en tecnología educativa"],
+    "answer": 1, "category": "normativa_basica", "difficulty": "media",
+    "fuente": "Ley 070 - PROFOCOM"
+  }
+]

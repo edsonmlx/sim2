@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="theme-color" content="#0A0A0A">
+  <link rel="manifest" href="manifest.json">
+  <title>Resultados · SimDocente 2026</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    .res-hero {
+      background:var(--negro); padding:28px 20px 24px;
+      text-align:center; position:relative; overflow:hidden;
+    }
+    .res-hero::before {
+      content:''; position:absolute; bottom:-80px; left:50%; transform:translateX(-50%);
+      width:320px; height:220px;
+      background:radial-gradient(ellipse,rgba(204,0,0,.18) 0%,transparent 70%);
+      pointer-events:none;
+    }
+    .score-ring { width:148px; height:148px; margin:0 auto 16px; position:relative; }
+    .score-ring svg { transform:rotate(-90deg); width:100%; height:100%; }
+    .ring-bg   { fill:none; stroke:rgba(255,255,255,.08); stroke-width:9; }
+    .ring-fill { fill:none; stroke:var(--rojo); stroke-width:9; stroke-linecap:round; transition:stroke-dashoffset 1.6s cubic-bezier(.4,0,.2,1); }
+    .ring-fill.pass { stroke:#00D97E; }
+    .score-center { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+    .score-pct { font-family:'Barlow Condensed',sans-serif; font-size:42px; font-weight:800; color:#fff; line-height:1; }
+    .score-sub { font-size:10px; color:rgba(255,255,255,.35); letter-spacing:1px; text-transform:uppercase; }
+
+    .status-pill { display:inline-block; padding:5px 16px; border-radius:20px; font-size:11px; font-weight:800; letter-spacing:1px; text-transform:uppercase; margin-bottom:8px; }
+    .status-pill.pass { background:rgba(0,217,126,.15); color:#00D97E; border:1px solid rgba(0,217,126,.3); }
+    .status-pill.fail { background:rgba(204,0,0,.15);   color:#FF5050; border:1px solid rgba(204,0,0,.3); }
+
+    .res-mode-lbl { font-size:11px; color:rgba(255,255,255,.3); text-transform:uppercase; letter-spacing:1px; margin-bottom:7px; }
+    .res-msg      { font-size:13px; color:rgba(255,255,255,.45); max-width:290px; margin:0 auto; line-height:1.6; }
+
+    .stats-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:9px; padding:14px 16px; }
+    .stat-card  { background:var(--bg-card); border:1.5px solid var(--border); border-radius:14px; padding:14px 12px; text-align:center; }
+    .stat-n     { font-family:'Barlow Condensed',sans-serif; font-size:32px; font-weight:800; line-height:1; margin-bottom:4px; }
+    .stat-n.green{color:#009650;} .stat-n.red{color:var(--rojo);} .stat-n.gold{color:#E07800;} .stat-n.blue{color:#0064CC;}
+    .stat-lbl   { font-size:11px; color:var(--text-sub); text-transform:uppercase; letter-spacing:.5px; }
+
+    .summary-strip { margin:0 16px 12px; display:grid; grid-template-columns:repeat(3,1fr); background:var(--border); border-radius:13px; overflow:hidden; }
+    .sum-item { background:var(--bg-card); padding:13px 8px; text-align:center; }
+    .sum-item:not(:last-child){ border-right:1px solid var(--border); }
+    .sum-val { font-size:17px; font-weight:800; color:var(--text); }
+    .sum-lbl  { font-size:10px; color:var(--text-sub); text-transform:uppercase; letter-spacing:.5px; margin-top:3px; }
+
+    .breakdown { padding:0 16px 4px; }
+    .bd-title  { font-size:12px; font-weight:800; color:var(--text); margin-bottom:10px; }
+    .bd-row    { background:var(--bg-card); border:1.5px solid var(--border); border-radius:12px; padding:13px 14px; margin-bottom:8px; }
+    .bd-head   { display:flex; justify-content:space-between; align-items:center; margin-bottom:7px; }
+    .bd-name   { font-size:13px; font-weight:700; color:var(--text); }
+    .bd-score  { font-size:16px; font-weight:800; }
+    .bd-track  { height:6px; background:var(--border); border-radius:3px; overflow:hidden; }
+    .bd-fill   { height:100%; border-radius:3px; width:0; transition:width 1.2s cubic-bezier(.4,0,.2,1); }
+    .bd-sub    { font-size:11px; color:var(--text-sub); margin-top:6px; }
+
+    .actions { padding:12px 16px 36px; display:flex; flex-direction:column; gap:9px; }
+  </style>
+</head>
+<body>
+
+<div id="loader"><div class="loader-icon">🏆</div><div class="loader-ring"></div><div class="loader-txt">Calculando...</div></div>
+<div id="toast"></div>
+
+<div class="res-hero">
+  <div class="score-ring">
+    <svg viewBox="0 0 148 148">
+      <circle class="ring-bg"   cx="74" cy="74" r="64"/>
+      <circle class="ring-fill" id="ring" cx="74" cy="74" r="64" stroke-dasharray="402.12" stroke-dashoffset="402.12"/>
+    </svg>
+    <div class="score-center">
+      <div class="score-pct" id="score-pct">0%</div>
+      <div class="score-sub">puntaje</div>
+    </div>
+  </div>
+  <div class="status-pill fail" id="status-pill">❌ REPROBADO</div>
+  <div class="res-mode-lbl"     id="res-mode">Modo</div>
+  <p class="res-msg"            id="res-msg">—</p>
+</div>
+
+<div class="stats-grid">
+  <div class="stat-card"><div class="stat-n green" id="s-ok">0</div><div class="stat-lbl">✅ Correctas</div></div>
+  <div class="stat-card"><div class="stat-n red"   id="s-bad">0</div><div class="stat-lbl">❌ Incorrectas</div></div>
+  <div class="stat-card"><div class="stat-n gold"  id="s-skip">0</div><div class="stat-lbl">⏭ Omitidas</div></div>
+  <div class="stat-card"><div class="stat-n blue"  id="s-time">0:00</div><div class="stat-lbl">⏱ Tiempo</div></div>
+</div>
+
+<div class="summary-strip">
+  <div class="sum-item"><div class="sum-val" id="sum-total">0</div><div class="sum-lbl">Preguntas</div></div>
+  <div class="sum-item"><div class="sum-val" style="color:var(--rojo)">60%</div><div class="sum-lbl">Mínimo</div></div>
+  <div class="sum-item"><div class="sum-val" id="sum-estado">--</div><div class="sum-lbl">Estado</div></div>
+</div>
+
+<div class="breakdown" id="breakdown"></div>
+
+<div class="actions">
+  <button class="btn btn-red"   id="btn-retry">🔄 Repetir este modo</button>
+  <button class="btn btn-dark"  id="btn-menu">🏠 Volver al menú</button>
+  <button class="btn btn-ghost" id="btn-hist">📊 Ver historial</button>
+</div>
+
+<script src="js/storage.js"></script>
+<script>
+const CAT_LABELS = {
+  textos_pedagogicos: '📚 Textos Pedagógicos',
+  normativa_basica:   '⚖️ Normativa Básica',
+  administrativos:    '🗂️ Administrativos',
+  encuesta:           '📋 Encuesta Educativa',
+  dificil:            '🔥 Difícil',
+  pedagogia:          '📚 Pedagógico',
+  normativa:          '⚖️ Normativa',
+};
+
+window.addEventListener('DOMContentLoaded', ()=>{
+  if (!requireAuth('login.html')) return;
+  applyTheme();
+  const r = Storage.getResult();
+  if (!r) { window.location.href='index.html'; return; }
+  render(r);
+  hideLoader();
+});
+
+function render(r) {
+  const pass = r.percentage >= 60;
+  const CIRC = 2*Math.PI*64;
+
+  const ring = document.getElementById('ring');
+  ring.setAttribute('stroke-dasharray',  CIRC);
+  ring.setAttribute('stroke-dashoffset', CIRC);
+  ring.classList.toggle('pass', pass);
+  setTimeout(()=> ring.setAttribute('stroke-dashoffset', CIRC-(r.percentage/100)*CIRC), 300);
+
+  const pctEl = document.getElementById('score-pct');
+  let cur=0;
+  const step=()=>{ cur=Math.min(cur+Math.ceil(r.percentage/35),r.percentage); pctEl.textContent=`${cur}%`; if(cur<r.percentage) requestAnimationFrame(step); };
+  setTimeout(()=>requestAnimationFrame(step), 500);
+
+  const pill = document.getElementById('status-pill');
+  pill.textContent = pass ? '✅ APROBADO' : '❌ REPROBADO';
+  pill.className   = `status-pill ${pass?'pass':'fail'}`;
+
+  document.getElementById('res-mode').textContent = r.modeName || r.mode;
+
+  const msgs = pass
+    ? ['¡Excelente! Estás listo para el ascenso. 🏆','¡Brillante! Tu preparación se nota. 🌟','¡Aprobado! Sigue superando tu puntaje. 💪']
+    : ['No te rindas, cada intento cuenta. 💪','Revisa los temas con más fallas. 📚','El ascenso requiere práctica constante. ¡Tú puedes! 🎯'];
+  document.getElementById('res-msg').textContent = msgs[Math.floor(Math.random()*msgs.length)];
+
+  document.getElementById('s-ok').textContent    = r.correct;
+  document.getElementById('s-bad').textContent   = r.wrong;
+  document.getElementById('s-skip').textContent  = r.skipped;
+  document.getElementById('s-time').textContent  = formatTime(r.timeUsed);
+  document.getElementById('sum-total').textContent = r.total;
+
+  const eEl = document.getElementById('sum-estado');
+  eEl.textContent = pass ? '✅ OK' : '❌ No';
+  eEl.style.color = pass ? '#009650' : 'var(--rojo)';
+
+  const bd = document.getElementById('breakdown');
+  if (r.catStats && Object.keys(r.catStats).length) {
+    bd.innerHTML = `<div class="bd-title">📊 Resultado por categoría</div>` +
+      Object.entries(r.catStats).map(([cat,st])=>{
+        const pct   = st.total ? Math.round((st.correct/st.total)*100) : 0;
+        const color = pct>=60 ? '#009650' : 'var(--rojo)';
+        return `<div class="bd-row">
+          <div class="bd-head">
+            <span class="bd-name">${CAT_LABELS[cat]||cat}</span>
+            <span class="bd-score" style="color:${color}">${pct}%</span>
+          </div>
+          <div class="bd-track"><div class="bd-fill" style="background:${color}" data-w="${pct}"></div></div>
+          <div class="bd-sub">${st.correct} correctas de ${st.total} preguntas</div>
+        </div>`;
+      }).join('');
+    setTimeout(()=>{ bd.querySelectorAll('.bd-fill').forEach(b=>b.style.width=b.dataset.w+'%'); }, 500);
+  }
+
+  document.getElementById('btn-retry').addEventListener('click',()=>{ Storage.setPending(r.mode); window.location.href='exam.html'; });
+  document.getElementById('btn-menu').addEventListener('click',()=>  window.location.href='index.html');
+  document.getElementById('btn-hist').addEventListener('click',()=>  window.location.href='history.html');
+}
+</script>
+<script>if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js');</script>
+</body>
+</html>

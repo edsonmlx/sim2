@@ -1,0 +1,353 @@
+[
+  {
+    "question": "El Reglamento del Escalafón Nacional DS 4688 aplica a:",
+    "options": [
+      "Solo al personal directivo de las unidades educativas",
+      "A todo el personal docente y administrativo del Sistema Educativo Plurinacional",
+      "Solo a los docentes de educación primaria",
+      "Únicamente a los docentes con más de 10 años de servicio"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "baja",
+    "fuente": "DS 4688 - Reglamento Escalafón Nacional (Administrativos)"
+  },
+  {
+    "question": "Según el DS 4688 para personal administrativo, ¿qué es el Registro Escalafonal?",
+    "options": [
+      "El listado de escuelas del departamento",
+      "El sistema oficial que registra los datos personales, académicos, méritos y sanciones del personal del magisterio",
+      "El archivo de planificaciones anuales de cada docente",
+      "El registro de asistencia diaria del personal"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "DS 4688 - Reglamento Escalafón Nacional (Administrativos)"
+  },
+  {
+    "question": "El Reglamento de Faltas y Sanciones establece que el proceso disciplinario debe garantizar:",
+    "options": [
+      "La sanción inmediata sin necesidad de proceso previo",
+      "El derecho a la defensa, debido proceso y presunción de inocencia del sumariado",
+      "La confidencialidad absoluta sin notificar al afectado",
+      "Solo la sanción pero no el derecho de apelación"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Reglamento de Faltas y Sanciones (Administrativos)"
+  },
+  {
+    "question": "Según el Reglamento de Faltas y Sanciones, ¿quién tiene competencia para iniciar un proceso disciplinario a un docente?",
+    "options": [
+      "Solo los padres de familia mediante queja formal",
+      "La autoridad educativa competente (Dirección Distrital o Departamental) según la gravedad de la falta",
+      "Cualquier ciudadano sin necesidad de evidencia",
+      "Solo los compañeros docentes de la misma unidad educativa"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Reglamento de Faltas y Sanciones (Administrativos)"
+  },
+  {
+    "question": "El Protocolo de Prevención y Actuación ante violencia en el ámbito educativo establece que es responsabilidad del Director de Unidad Educativa:",
+    "options": [
+      "Resolver personalmente todos los casos de violencia sin derivarlos",
+      "Activar el protocolo institucional, registrar los casos y coordinar con instancias especializadas",
+      "Ignorar los casos que no involucren violencia física",
+      "Solo informar a los padres sin ninguna otra acción"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Protocolo de Prevención y Actuación (Administrativos)"
+  },
+  {
+    "question": "La Guía de Identificación y Denuncia de Violencia Intrafamiliar señala que la denuncia de violencia intrafamiliar en el ámbito educativo es:",
+    "options": [
+      "Opcional, depende del criterio personal del docente",
+      "Obligatoria cuando se detectan indicios o certeza de violencia hacia un estudiante",
+      "Solo obligatoria si el estudiante lo solicita expresamente",
+      "Recomendable pero no exigible legalmente"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Guía de Identificación y Denuncia de Violencia Intrafamiliar (Administrativos)"
+  },
+  {
+    "question": "¿Qué instancia en Bolivia atiende de manera especializada los casos de violencia intrafamiliar denunciados desde el ámbito educativo?",
+    "options": [
+      "La Dirección Distrital de Educación directamente",
+      "La SLIM (Servicio Legal Integral Municipal) y el SEDEGES, entre otras instancias especializadas",
+      "Solo la Policía Boliviana",
+      "El Ministerio de Educación de forma centralizada"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Guía de Identificación y Denuncia de Violencia Intrafamiliar (Administrativos)"
+  },
+  {
+    "question": "La Ley 223 establece que las personas con discapacidad tienen derecho a la educación inclusiva, lo que implica para las instituciones educativas:",
+    "options": [
+      "Solo adaptar el acceso físico al edificio escolar",
+      "Realizar ajustes razonables en la infraestructura, metodología y evaluación para garantizar su participación plena",
+      "Crear aulas separadas dentro de la misma escuela",
+      "Reducir el currículo para hacerlo más fácil"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Ley 223 - Personas con Discapacidad (Administrativos)"
+  },
+  {
+    "question": "El Reglamento de Educación Inclusiva SEP - Modalidad Indirecta establece que el personal de apoyo especializado debe:",
+    "options": [
+      "Reemplazar al docente regular en la atención del estudiante con discapacidad",
+      "Trabajar de forma coordinada con el docente regular para orientar la inclusión educativa del estudiante",
+      "Atender solo a estudiantes con discapacidad severa",
+      "Elaborar un currículo completamente diferente para el estudiante con discapacidad"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "alta",
+    "fuente": "Reglamento Educación Inclusiva SEP - Modalidad Indirecta (Administrativos)"
+  },
+  {
+    "question": "La convivencia escolar y resolución pacífica de conflictos en el ámbito educativo se sustenta en:",
+    "options": [
+      "El uso de la autoridad vertical para imponer normas sin participación",
+      "El desarrollo de habilidades socioemocionales, el diálogo y la mediación como herramientas para resolver conflictos",
+      "La sanción inmediata sin proceso de reflexión",
+      "El aislamiento de los estudiantes que generan conflictos"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "baja",
+    "fuente": "Convivencia Escolar y Resolución Pacífica de Conflictos"
+  },
+  {
+    "question": "El Manual de Resolución de Problemas en el contexto educativo propone como primer paso ante un conflicto institucional:",
+    "options": [
+      "Escalar inmediatamente a las autoridades superiores",
+      "Identificar claramente el problema, sus causas y las partes involucradas antes de buscar soluciones",
+      "Aplicar sanciones preventivas a todos los involucrados",
+      "Ignorar el conflicto esperando que se resuelva solo"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "baja",
+    "fuente": "Manual de Resolución de Problemas"
+  },
+  {
+    "question": "Según los documentos administrativos de la bibliografía oficial, la mediación escolar es:",
+    "options": [
+      "Un proceso donde el director impone una solución a las partes",
+      "Un proceso voluntario donde un tercero imparcial facilita la comunicación entre las partes en conflicto para que encuentren su propia solución",
+      "Un proceso judicial que requiere abogados",
+      "Un método exclusivo para conflictos entre docentes y directores"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Convivencia Escolar y Resolución Pacífica de Conflictos"
+  },
+  {
+    "question": "¿Qué es el SLIM (Servicio Legal Integral Municipal) y cuál es su rol en la protección de estudiantes?",
+    "options": [
+      "Un servicio educativo de apoyo pedagógico municipal",
+      "Un servicio gratuito que brinda orientación legal y psicosocial a víctimas de violencia familiar y sexual, incluyendo menores de edad",
+      "Un organismo de control de asistencia docente",
+      "Un servicio de mediación exclusivo para conflictos laborales docentes"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Guía de Identificación y Denuncia de Violencia Intrafamiliar (Administrativos)"
+  },
+  {
+    "question": "Según el Reglamento de Faltas y Sanciones, la falta de un docente que cobra dinero a estudiantes o padres de familia a cambio de calificaciones se clasifica como:",
+    "options": [
+      "Falta leve con amonestación",
+      "Falta grave con suspensión temporal",
+      "Falta muy grave que puede llevar a la destitución y proceso penal",
+      "Una infracción administrativa menor"
+    ],
+    "answer": 2,
+    "category": "administrativos",
+    "difficulty": "alta",
+    "fuente": "Reglamento de Faltas y Sanciones (Administrativos)"
+  },
+  {
+    "question": "El principio de 'interés superior del niño' en el contexto de la Ley 348 y los protocolos educativos implica que:",
+    "options": [
+      "Los intereses de los adultos en el proceso educativo tienen prioridad",
+      "Ante cualquier decisión que afecte a un niño o adolescente, su bienestar y derechos deben ser la consideración principal",
+      "El niño siempre tiene razón en cualquier conflicto escolar",
+      "Los derechos del estudiante son secundarios a los derechos del docente"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Ley 348 / Protocolos de Actuación (Administrativos)"
+  },
+  {
+    "question": "Según la normativa administrativa boliviana, ¿qué es un sumario administrativo docente?",
+    "options": [
+      "Un resumen del currículum vitae del docente",
+      "Un proceso formal de investigación y determinación de responsabilidades ante una falta administrativa grave",
+      "Una evaluación del desempeño docente anual",
+      "El informe trimestral de actividades pedagógicas"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Reglamento de Faltas y Sanciones (Administrativos)"
+  },
+  {
+    "question": "El Reglamento de Educación Inclusiva establece que las adaptaciones curriculares son:",
+    "options": [
+      "Cambios radicales que crean un currículo completamente diferente",
+      "Modificaciones en los objetivos, contenidos, metodología o evaluación para responder a las necesidades individuales del estudiante",
+      "Solo ajustes en el tiempo de evaluación",
+      "Reducciones en los contenidos que todos los estudiantes deben aprender"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Reglamento Educación Inclusiva SEP - Modalidad Indirecta (Administrativos)"
+  },
+  {
+    "question": "La Ley 223 define los 'ajustes razonables' en educación como:",
+    "options": [
+      "Grandes reformas estructurales del sistema educativo",
+      "Modificaciones y adaptaciones necesarias y adecuadas que no impongan una carga desproporcionada para garantizar el goce de derechos de personas con discapacidad",
+      "Solo la instalación de rampas de acceso en los edificios escolares",
+      "Reducción de la jornada escolar para todos los estudiantes"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "alta",
+    "fuente": "Ley 223 - Personas con Discapacidad (Administrativos)"
+  },
+  {
+    "question": "¿Cuál es el rol de la Junta Escolar en la gestión educativa boliviana según la normativa vigente?",
+    "options": [
+      "Dirigir pedagógicamente la unidad educativa reemplazando al director",
+      "Participar en la planificación, seguimiento y control social de la gestión educativa de la unidad educativa",
+      "Administrar directamente los recursos económicos de la escuela",
+      "Contratar y despedir docentes según su criterio"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "baja",
+    "fuente": "Ley 070 - Participación Social (Administrativos)"
+  },
+  {
+    "question": "Según los documentos administrativos de la bibliografía oficial, el acoso laboral (mobbing) en el ámbito educativo se define como:",
+    "options": [
+      "Una discusión puntual entre colegas sin consecuencias",
+      "Conductas sistemáticas de hostigamiento, intimidación o humillación hacia un trabajador con el fin de degradar su ambiente laboral",
+      "Un proceso de evaluación del desempeño docente",
+      "Solo el acoso sexual en el lugar de trabajo"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Reglamento de Faltas y Sanciones / Ley 348 (Administrativos)"
+  },
+  {
+    "question": "El Reglamento de Faltas y Sanciones establece que la negligencia reiterada en el cumplimiento de funciones docentes se clasifica como:",
+    "options": [
+      "Falta leve con amonestación verbal",
+      "Falta grave o muy grave según la frecuencia y el impacto en los estudiantes",
+      "Una observación informal sin registro oficial",
+      "Solo una recomendación de mejora sin consecuencias formales"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Reglamento de Faltas y Sanciones"
+  },
+  {
+    "question": "Según los documentos administrativos, el 'informe de gestión anual' que debe presentar el Director de Unidad Educativa incluye:",
+    "options": [
+      "Solo los resultados académicos cuantitativos de los estudiantes",
+      "Los logros pedagógicos, administrativos, participación comunitaria y dificultades enfrentadas durante la gestión",
+      "Solo el registro de asistencia del personal docente",
+      "Únicamente el estado financiero de los recursos recibidos"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Normativa Administrativa"
+  },
+  {
+    "question": "La 'Guía de Convivencia Escolar' establece que las normas de convivencia en la unidad educativa deben:",
+    "options": [
+      "Ser impuestas por las autoridades sin participación de la comunidad educativa",
+      "Ser construidas participativamente con estudiantes, docentes, padres y autoridades para garantizar su apropiación y cumplimiento",
+      "Solo ser elaboradas por el director y el equipo docente",
+      "Copiarse del modelo nacional sin adaptación al contexto local"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "baja",
+    "fuente": "Convivencia Escolar y Resolución de Conflictos"
+  },
+  {
+    "question": "Según la normativa administrativa boliviana, el plagio o falsificación de documentos oficiales por parte de un docente constituye:",
+    "options": [
+      "Una falta leve con amonestación",
+      "Una falta muy grave que puede ameritar destitución y proceso penal",
+      "Solo una falta administrativa sin consecuencias penales",
+      "Una irregularidad menor sin registro en el file personal"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "alta",
+    "fuente": "Reglamento de Faltas y Sanciones"
+  },
+  {
+    "question": "El protocolo de actuación ante casos de abuso sexual en el ámbito educativo establece como prioridad absoluta:",
+    "options": [
+      "Preservar la imagen institucional de la unidad educativa",
+      "Garantizar la protección inmediata de la víctima y activar la ruta de atención especializada",
+      "Investigar internamente antes de denunciar a instancias externas",
+      "Mediar entre el agresor y la víctima para evitar conflictos mayores"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "alta",
+    "fuente": "Protocolo de Prevención y Actuación"
+  },
+  {
+    "question": "Según el Reglamento del Escalafón DS 4688, los méritos que se reconocen para el ascenso docente incluyen:",
+    "options": [
+      "Solo los años de servicio sin considerar formación adicional",
+      "Títulos académicos adicionales, cursos de capacitación, publicaciones y reconocimientos en el ejercicio de la docencia",
+      "Solo las medallas y reconocimientos sindicales",
+      "Únicamente los años en el cargo de director"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "DS 4688 - Reglamento Escalafón"
+  },
+  {
+    "question": "La Ley 223 establece que las personas con discapacidad que soliciten empleo en el sector público educativo tienen derecho a:",
+    "options": [
+      "Ser atendidos en el mismo proceso sin ninguna consideración especial",
+      "Acceder en igualdad de condiciones, con los ajustes razonables necesarios en el proceso de selección",
+      "Ser excluidos de concursos para proteger a los candidatos sin discapacidad",
+      "Solo postular a cargos administrativos, no pedagógicos"
+    ],
+    "answer": 1,
+    "category": "administrativos",
+    "difficulty": "media",
+    "fuente": "Ley 223 - Personas con Discapacidad"
+  }
+]

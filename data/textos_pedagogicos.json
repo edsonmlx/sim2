@@ -1,0 +1,522 @@
+[
+  {
+    "question": "Según José Gimeno Sacristán en 'Diseño, Desarrollo e Innovación del Currículum', el currículo es principalmente:",
+    "options": [
+      "Solo el listado de materias y contenidos a enseñar",
+      "Una construcción cultural compleja que incluye intenciones educativas, prácticas pedagógicas y experiencias de aprendizaje",
+      "El reglamento interno de la institución educativa",
+      "El manual de evaluación que usa el docente"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Diseño, Desarrollo e Innovación del Currículum - Sacristán"
+  },
+  {
+    "question": "Rafael Feito Alonso, en el texto sobre currículo, plantea que la innovación curricular debe partir de:",
+    "options": [
+      "La imposición vertical de reformas desde el Ministerio sin consulta",
+      "La reflexión crítica de los docentes sobre su práctica y el contexto social de los estudiantes",
+      "La importación de modelos educativos extranjeros exitosos",
+      "La reducción de contenidos para facilitar el trabajo docente"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Diseño, Desarrollo e Innovación del Currículum - Feito Alonso"
+  },
+  {
+    "question": "Philippe Perrenoud, en relación al desarrollo curricular, propone que el docente debe ser:",
+    "options": [
+      "Un ejecutor fiel del currículo oficial sin adaptaciones",
+      "Un profesional reflexivo capaz de adaptar y recrear el currículo según las necesidades del contexto",
+      "Un técnico que aplica metodologías estándar sin variación",
+      "Un administrador de contenidos prediseñados por expertos"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Diseño, Desarrollo e Innovación del Currículum - Perrenoud"
+  },
+  {
+    "question": "María Clemente Linuesa, en su trabajo sobre el currículo, enfatiza la importancia de:",
+    "options": [
+      "Separar la teoría curricular de la práctica docente cotidiana",
+      "La coherencia entre los fundamentos teóricos del currículo y las prácticas pedagógicas reales en el aula",
+      "Aplicar el mismo currículo sin adaptación en todos los contextos",
+      "Priorizar los contenidos académicos sobre las competencias prácticas"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Diseño, Desarrollo e Innovación del Currículum - Linuesa"
+  },
+  {
+    "question": "Según el texto 'Estilos de Aprendizaje y Métodos de Enseñanza', el concepto de estilo de aprendizaje se refiere a:",
+    "options": [
+      "El nivel de inteligencia medido por pruebas estandarizadas",
+      "Las preferencias y tendencias relativamente estables de una persona para percibir y procesar la información",
+      "La velocidad con que un estudiante memoriza contenidos",
+      "La actitud del estudiante frente a las evaluaciones"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Estilos de Aprendizaje y Métodos de Enseñanza"
+  },
+  {
+    "question": "El modelo VARK de estilos de aprendizaje clasifica las preferencias en:",
+    "options": [
+      "Visual, Auditivo, Reflexivo y Kinestésico",
+      "Visual, Auditivo, Lector/Escritor y Kinestésico",
+      "Verbal, Analítico, Reflexivo y Kinestésico",
+      "Visual, Analítico, Racional y Kinestésico"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Estilos de Aprendizaje y Métodos de Enseñanza"
+  },
+  {
+    "question": "Según el texto de Estilos de Aprendizaje, un docente que considera los distintos estilos de sus estudiantes debe:",
+    "options": [
+      "Enseñar siempre de la misma manera para garantizar equidad",
+      "Diversificar sus estrategias didácticas para atender las diferentes formas de aprender",
+      "Clasificar a los estudiantes por grupos fijos según su estilo",
+      "Ignorar los estilos y enfocarse solo en el contenido"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "baja",
+    "fuente": "Estilos de Aprendizaje y Métodos de Enseñanza"
+  },
+  {
+    "question": "El modelo de Kolb sobre estilos de aprendizaje se basa en un ciclo de cuatro etapas que son:",
+    "options": [
+      "Ver, pensar, hacer, reflexionar",
+      "Experiencia concreta, Observación reflexiva, Conceptualización abstracta, Experimentación activa",
+      "Lectura, comprensión, aplicación, evaluación",
+      "Motivación, atención, retención, reproducción"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "alta",
+    "fuente": "Estilos de Aprendizaje y Métodos de Enseñanza"
+  },
+  {
+    "question": "La 'Neurociencia y Neuroaprendizaje' aplicada a la educación parte del principio de que el cerebro:",
+    "options": [
+      "Es un órgano estático que no cambia con la experiencia educativa",
+      "Es plástico y se modifica estructuralmente con el aprendizaje, la emoción y la experiencia",
+      "Funciona igual en todos los estudiantes independientemente del contexto",
+      "Solo aprende en las primeras etapas de vida y luego su capacidad disminuye"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Neurociencia y Neuroaprendizaje"
+  },
+  {
+    "question": "Según la neurociencia del aprendizaje, ¿por qué es fundamental el papel de las emociones en el proceso educativo?",
+    "options": [
+      "Las emociones interfieren negativamente con el aprendizaje racional",
+      "El sistema límbico y las emociones facilitan o bloquean el aprendizaje; las emociones positivas favorecen la consolidación de la memoria",
+      "Las emociones solo importan en la educación inicial, no en la secundaria",
+      "Las emociones son independientes de los procesos cognitivos de aprendizaje"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Neurociencia y Neuroaprendizaje"
+  },
+  {
+    "question": "El concepto de 'neuroplasticidad' es relevante para la educación porque:",
+    "options": [
+      "Demuestra que la inteligencia es fija e innata y no puede modificarse",
+      "Indica que el cerebro puede reorganizarse y crear nuevas conexiones neuronales a cualquier edad con el aprendizaje adecuado",
+      "Solo aplica al desarrollo de habilidades motoras, no cognitivas",
+      "Demuestra que los primeros 3 años de vida determinan definitivamente la inteligencia"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Neurociencia y Neuroaprendizaje"
+  },
+  {
+    "question": "Según la neurociencia educativa, el sueño y el descanso son importantes para el aprendizaje porque:",
+    "options": [
+      "Permiten al docente planificar mejor las clases del día siguiente",
+      "Durante el sueño el cerebro consolida y organiza los aprendizajes del día, transfiriéndolos a la memoria a largo plazo",
+      "El descanso solo reduce el cansancio físico sin efecto en la memoria",
+      "El sueño no tiene relación comprobada con el rendimiento académico"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Neurociencia y Neuroaprendizaje"
+  },
+  {
+    "question": "La neurociencia educativa recomienda el aprendizaje basado en la novedad y el desafío porque:",
+    "options": [
+      "La rutina y la repetición son los únicos métodos efectivos para aprender",
+      "La novedad activa el sistema dopaminérgico generando motivación y consolidando mejor los aprendizajes",
+      "Solo los estudiantes avanzados se benefician de desafíos cognitivos",
+      "El desafío genera estrés que bloquea el aprendizaje"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "alta",
+    "fuente": "Neurociencia y Neuroaprendizaje"
+  },
+  {
+    "question": "El documento 'Innovación Educativa - UNESCO' define la innovación educativa como:",
+    "options": [
+      "La incorporación obligatoria de tecnología digital en todas las aulas",
+      "Un cambio intencional y sistémico en los procesos educativos que mejora la calidad y la equidad del aprendizaje",
+      "La mera modificación cosmética de los materiales didácticos",
+      "La importación de modelos educativos de países desarrollados"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Innovación Educativa - UNESCO"
+  },
+  {
+    "question": "Según la UNESCO, para que una innovación educativa sea sostenible debe:",
+    "options": [
+      "Ser impuesta desde arriba por las autoridades educativas centrales",
+      "Involucrar a los docentes como protagonistas, contar con apoyo institucional y responder a necesidades reales del contexto",
+      "Depender exclusivamente de la tecnología disponible",
+      "Ser replicable exactamente en todos los contextos sin adaptación"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Innovación Educativa - UNESCO"
+  },
+  {
+    "question": "La UNESCO identifica como uno de los principales obstáculos para la innovación educativa:",
+    "options": [
+      "El exceso de motivación de los docentes por cambiar sus prácticas",
+      "La resistencia al cambio, la falta de formación docente y los sistemas de evaluación que no incentivan la innovación",
+      "La participación excesiva de los padres en el proceso educativo",
+      "El exceso de recursos tecnológicos disponibles en las escuelas"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Innovación Educativa - UNESCO"
+  },
+  {
+    "question": "Según los textos pedagógicos de la bibliografía oficial, el aprendizaje significativo se diferencia del memorístico en que:",
+    "options": [
+      "El aprendizaje significativo es más rápido y requiere menos esfuerzo",
+      "El aprendizaje significativo conecta el nuevo conocimiento con los saberes previos del estudiante de forma lógica y duradera",
+      "El aprendizaje memorístico produce comprensión más profunda",
+      "Son el mismo proceso visto desde distintas perspectivas"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "baja",
+    "fuente": "Textos Pedagógicos - Bibliografía Oficial"
+  },
+  {
+    "question": "El constructivismo, base teórica del MESCP, sostiene que el conocimiento:",
+    "options": [
+      "Es transmitido pasivamente del docente al estudiante",
+      "Es construido activamente por el sujeto en interacción con su entorno social y cultural",
+      "Existe de forma objetiva e independiente del sujeto que aprende",
+      "Solo puede ser adquirido a través de la instrucción directa del docente"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "baja",
+    "fuente": "Textos Pedagógicos - Bibliografía Oficial"
+  },
+  {
+    "question": "Según los textos pedagógicos, la evaluación formativa se distingue de la sumativa porque:",
+    "options": [
+      "La formativa califica y la sumativa no",
+      "La formativa proporciona información durante el proceso para mejorar el aprendizaje; la sumativa certifica logros al final del proceso",
+      "La formativa es más difícil de aplicar en grupos grandes",
+      "La sumativa es cuantitativa y la formativa siempre cualitativa"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "baja",
+    "fuente": "Textos Pedagógicos - Bibliografía Oficial"
+  },
+  {
+    "question": "La metacognición, concepto clave en los textos pedagógicos, se refiere a:",
+    "options": [
+      "La capacidad de memorizar gran cantidad de información",
+      "El conocimiento y regulación que tiene el estudiante sobre sus propios procesos de pensamiento y aprendizaje",
+      "El uso de tecnología para potenciar el aprendizaje",
+      "La evaluación del docente por parte de sus estudiantes"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Textos Pedagógicos - Bibliografía Oficial"
+  },
+  {
+    "question": "Según los textos pedagógicos de la bibliografía oficial 2026, las estrategias de aprendizaje activo buscan principalmente:",
+    "options": [
+      "Reducir la carga de trabajo del docente en el aula",
+      "Transformar al estudiante de receptor pasivo a constructor activo de su propio conocimiento",
+      "Acelerar la cobertura de contenidos curriculares",
+      "Eliminar la evaluación como proceso pedagógico"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "baja",
+    "fuente": "Textos Pedagógicos - Bibliografía Oficial"
+  },
+  {
+    "question": "En el marco de los textos pedagógicos, las inteligencias múltiples de Gardner proponen que:",
+    "options": [
+      "Existe una sola inteligencia general que determina el éxito académico",
+      "Hay diversas formas de inteligencia (lógica, lingüística, musical, espacial, etc.) que deben ser reconocidas en el aula",
+      "La inteligencia es fija desde el nacimiento y no puede desarrollarse",
+      "Solo las inteligencias lógica y lingüística tienen valor en el contexto escolar"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Textos Pedagógicos - Bibliografía Oficial"
+  },
+  {
+    "question": "Según la neurociencia aplicada a la educación, ¿qué implica el concepto de 'ventanas de oportunidad' o períodos sensibles?",
+    "options": [
+      "Los momentos del día en que los estudiantes están más despiertos",
+      "Las etapas del desarrollo en que el cerebro es especialmente receptivo para adquirir ciertas habilidades con mayor facilidad",
+      "Los periodos de vacaciones que deben aprovecharse para estudiar",
+      "Las horas de la jornada escolar de mayor productividad académica"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "alta",
+    "fuente": "Neurociencia y Neuroaprendizaje"
+  },
+  {
+    "question": "La innovación educativa según UNESCO implica necesariamente un cambio en:",
+    "options": [
+      "Solo en los materiales físicos y tecnológicos del aula",
+      "En las concepciones, prácticas pedagógicas y estructuras que afectan los procesos de enseñanza y aprendizaje",
+      "Solo en los documentos curriculares oficiales sin cambio en el aula",
+      "Exclusivamente en la formación inicial de nuevos docentes"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Innovación Educativa - UNESCO"
+  },
+  {
+    "question": "Sacristán plantea que el 'currículo prescrito' se diferencia del 'currículo real' en que:",
+    "options": [
+      "Son idénticos cuando los docentes cumplen bien su función",
+      "El prescrito es lo que oficialmente se establece; el real es lo que efectivamente ocurre en el aula según las decisiones docentes",
+      "El currículo real siempre es inferior en calidad al prescrito",
+      "El currículo prescrito solo existe en documentos sin aplicación práctica"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "alta",
+    "fuente": "Diseño, Desarrollo e Innovación del Currículum - Sacristán"
+  },
+  {
+    "question": "Según Sacristán, el 'currículo moldeado por los profesores' se refiere a:",
+    "options": [
+      "El currículo que diseñan los profesores desde cero sin guía oficial",
+      "La interpretación y adaptación que hace el docente del currículo prescrito según su contexto y criterio profesional",
+      "El currículo que aplican los profesores sin ninguna modificación",
+      "El currículo exclusivo de las escuelas privadas"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Sacristán - Diseño Curricular"
+  },
+  {
+    "question": "La 'pedagogía por competencias' según los textos pedagógicos oficiales propone:",
+    "options": [
+      "Enseñar solo habilidades técnicas y prácticas desvinculadas del conocimiento teórico",
+      "Integrar conocimientos, habilidades, actitudes y valores para resolver situaciones complejas de la vida real",
+      "Evaluar únicamente los conocimientos conceptuales memorizados",
+      "Separar la teoría de la práctica en todo el proceso educativo"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Textos Pedagógicos - Bibliografía Oficial"
+  },
+  {
+    "question": "El 'aprendizaje basado en problemas' (ABP) según los textos pedagógicos se fundamenta en:",
+    "options": [
+      "Memorizar soluciones a problemas tipo del libro de texto",
+      "Partir de un problema real y complejo que moviliza la investigación, el análisis y la construcción colectiva de soluciones",
+      "Que el docente resuelva los problemas mientras los estudiantes observan",
+      "Solo aplicar fórmulas y procedimientos conocidos sin reflexión"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Textos Pedagógicos - Bibliografía Oficial"
+  },
+  {
+    "question": "Según la neurociencia educativa, el estrés crónico afecta el aprendizaje porque:",
+    "options": [
+      "Mejora la concentración y la memoria a largo plazo",
+      "El cortisol en exceso daña el hipocampo, afectando negativamente la memoria y el aprendizaje",
+      "Solo afecta el comportamiento pero no los procesos cognitivos",
+      "Es beneficioso porque activa la motivación del estudiante"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "alta",
+    "fuente": "Neurociencia y Neuroaprendizaje"
+  },
+  {
+    "question": "La UNESCO reconoce como una práctica innovadora en educación:",
+    "options": [
+      "La masificación de exámenes estandarizados únicos para todos",
+      "El aprendizaje basado en proyectos comunitarios que conectan la escuela con la realidad local",
+      "La enseñanza exclusivamente magistral y expositiva",
+      "La eliminación de la evaluación como proceso pedagógico"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Innovación Educativa - UNESCO"
+  },
+  {
+    "question": "Según Perrenoud, las 'competencias docentes' son:",
+    "options": [
+      "Solo el dominio de los contenidos de la asignatura que enseña",
+      "Combinaciones de saberes, habilidades y actitudes que permiten al docente actuar eficazmente ante situaciones complejas de enseñanza",
+      "Las calificaciones y títulos académicos obtenidos por el docente",
+      "El conocimiento de las normas y reglamentos educativos vigentes"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Diseño Curricular - Perrenoud"
+  },
+  {
+    "question": "El 'aprendizaje cooperativo' según los textos pedagógicos se diferencia del trabajo en grupo tradicional porque:",
+    "options": [
+      "Es lo mismo con diferente nombre",
+      "Implica interdependencia positiva, responsabilidad individual, interacción cara a cara y procesamiento grupal del aprendizaje",
+      "Solo requiere sentar a los estudiantes juntos sin estructura pedagógica",
+      "Es exclusivo para estudiantes con dificultades de aprendizaje"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Textos Pedagógicos - Bibliografía Oficial"
+  },
+  {
+    "question": "Según la neurociencia, ¿por qué es importante el movimiento físico en el aprendizaje?",
+    "options": [
+      "El movimiento distrae y debe evitarse durante las clases",
+      "El ejercicio físico aumenta el flujo sanguíneo al cerebro, mejora la atención, la memoria y el estado de ánimo",
+      "El movimiento solo beneficia el aprendizaje de educación física",
+      "Solo es relevante para niños de educación inicial"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Neurociencia y Neuroaprendizaje"
+  },
+  {
+    "question": "La 'evaluación por rúbricas' según los textos pedagógicos permite:",
+    "options": [
+      "Reducir el tiempo que el docente dedica a corregir trabajos",
+      "Describir niveles de desempeño con criterios claros y transparentes que orientan tanto la evaluación como el aprendizaje",
+      "Solo comparar estudiantes entre sí para establecer rankings",
+      "Eliminar la subjetividad del docente al evaluar de forma mecánica"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Textos Pedagógicos - Bibliografía Oficial"
+  },
+  {
+    "question": "Según Feito Alonso, la innovación curricular en Bolivia debe considerar especialmente:",
+    "options": [
+      "La importación directa de modelos curriculares europeos sin adaptación",
+      "El contexto pluricultural, las cosmovisiones de los pueblos originarios y las necesidades productivas de cada región",
+      "Solo los contenidos tecnológicos y científicos universales",
+      "La eliminación de contenidos culturales locales para garantizar competitividad global"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Feito Alonso - Diseño Curricular"
+  },
+  {
+    "question": "Según los textos pedagógicos de la bibliografía 2026, el 'pensamiento sistémico' en educación implica:",
+    "options": [
+      "Aprender a usar sistemas informáticos en el aula",
+      "Comprender que los fenómenos educativos son interdependientes y no pueden analizarse de forma aislada",
+      "Solo analizar los resultados numéricos del rendimiento académico",
+      "Aplicar sistemas de evaluación estandarizados sin adaptación"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "alta",
+    "fuente": "Textos Pedagógicos - Bibliografía Oficial"
+  },
+  {
+    "question": "La neurociencia educativa propone que los ambientes de aprendizaje enriquecidos deben:",
+    "options": [
+      "Estar completamente silenciosos y sin estímulos visuales",
+      "Ofrecer variedad de estímulos sensoriales, desafíos apropiados y relaciones afectivas positivas que activen las redes neuronales",
+      "Ser idénticos en todas las escuelas para garantizar equidad",
+      "Minimizar las interacciones sociales para favorecer la concentración individual"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Neurociencia y Neuroaprendizaje"
+  },
+  {
+    "question": "Según Clemente Linuesa, la lectura en el desarrollo curricular es:",
+    "options": [
+      "Un proceso mecánico de decodificación de símbolos gráficos",
+      "Un proceso complejo de construcción de significados que requiere competencias lingüísticas, cognitivas y culturales articuladas",
+      "Solo una habilidad básica que se desarrolla en los primeros años y no requiere trabajo posterior",
+      "Un proceso exclusivamente individual que no admite apoyo social"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "alta",
+    "fuente": "Clemente Linuesa - Diseño Curricular"
+  },
+  {
+    "question": "La 'didáctica crítica' propone que la enseñanza debe:",
+    "options": [
+      "Transmitir el conocimiento oficial sin cuestionarlo",
+      "Promover el pensamiento crítico, la reflexión sobre la realidad y la participación activa del estudiante como sujeto histórico",
+      "Enfocarse solo en los contenidos técnicos y descartar los contenidos sociales",
+      "Separar el conocimiento del contexto social y político"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "alta",
+    "fuente": "Textos Pedagógicos - Bibliografía Oficial"
+  },
+  {
+    "question": "Según los textos pedagógicos, la 'zona de desarrollo próximo' de Vygotsky tiene implicaciones prácticas para el docente porque:",
+    "options": [
+      "Le indica que debe esperar a que el estudiante aprenda solo",
+      "Le señala el nivel de reto apropiado donde el apoyo del docente o pares puede generar el mayor avance en el aprendizaje",
+      "Le permite clasificar a los estudiantes en grupos permanentes por capacidad",
+      "Le indica que todos los estudiantes tienen el mismo potencial de aprendizaje"
+    ],
+    "answer": 1,
+    "category": "textos_pedagogicos",
+    "difficulty": "media",
+    "fuente": "Textos Pedagógicos - Vygotsky"
+  }
+]

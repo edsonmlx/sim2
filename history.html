@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="theme-color" content="#0A0A0A">
+  <link rel="manifest" href="manifest.json">
+  <title>Historial · SimDocente 2026</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    .sec { padding:16px 16px 0; }
+    .sec-title { font-size:13px; font-weight:800; color:var(--text); margin-bottom:11px; }
+
+    /* Stats globales */
+    .gstats {
+      display:grid; grid-template-columns:repeat(3,1fr);
+      gap:8px; margin-bottom:4px;
+    }
+    .gs {
+      background:var(--bg-card); border:1.5px solid var(--border);
+      border-radius:13px; padding:13px 8px; text-align:center;
+    }
+    .gs-n {
+      font-family:'Barlow Condensed',sans-serif;
+      font-size:26px; font-weight:800; color:var(--rojo); line-height:1;
+    }
+    .gs-l { font-size:10px; color:var(--text-sub); text-transform:uppercase; letter-spacing:.5px; margin-top:4px; }
+
+    /* Ranking */
+    .rank-card {
+      background:var(--bg-card); border:1.5px solid var(--border);
+      border-radius:13px; padding:13px 14px;
+      display:flex; align-items:center; gap:12px; margin-bottom:8px;
+    }
+    .rank-medal { font-size:26px; flex-shrink:0; }
+    .rank-info  { flex:1; min-width:0; }
+    .rank-name  { font-size:14px; font-weight:700; color:var(--text); margin-bottom:2px; }
+    .rank-meta  { font-size:11px; color:var(--text-sub); }
+    .rank-pct   {
+      font-family:'Barlow Condensed',sans-serif;
+      font-size:28px; font-weight:800; flex-shrink:0;
+    }
+    .rank-pct.pass { color:#009650; }
+    .rank-pct.fail { color:var(--rojo); }
+
+    /* Lista completa */
+    .hist-entry {
+      background:var(--bg-card); border:1.5px solid var(--border);
+      border-radius:13px; padding:13px 14px; margin-bottom:8px;
+      display:flex; align-items:flex-start; gap:11px;
+    }
+    .entry-idx {
+      width:36px; height:36px; border-radius:9px; flex-shrink:0;
+      display:flex; align-items:center; justify-content:center;
+      font-size:12px; font-weight:800;
+    }
+    .entry-idx.pass { background:rgba(0,150,80,.12); color:#009650; }
+    .entry-idx.fail { background:rgba(204,0,0,.1);   color:var(--rojo); }
+    .entry-body { flex:1; min-width:0; }
+    .entry-mode { font-size:14px; font-weight:700; color:var(--text); margin-bottom:3px; }
+    .entry-date { font-size:11px; color:var(--text-sub); margin-bottom:6px; }
+    .entry-chips { display:flex; flex-wrap:wrap; gap:10px; }
+    .chip { font-size:11px; color:var(--text-sub); }
+    .entry-score {
+      font-family:'Barlow Condensed',sans-serif;
+      font-size:28px; font-weight:800; flex-shrink:0; text-align:right;
+    }
+    .entry-score.pass { color:#009650; }
+    .entry-score.fail { color:var(--rojo); }
+    .entry-detail { font-size:11px; color:var(--text-sub); text-align:right; }
+
+    /* Estado vacío */
+    .empty {
+      text-align:center; padding:52px 20px;
+      background:var(--bg-card); border:1.5px solid var(--border);
+      border-radius:16px;
+    }
+    .empty .ico { font-size:52px; margin-bottom:14px; }
+    .empty h3   { font-size:17px; font-weight:800; color:var(--text); margin-bottom:7px; }
+    .empty p    { font-size:13px; color:var(--text-sub); line-height:1.55; }
+  </style>
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-icon">📊</div>
+  <div class="loader-ring"></div>
+  <div class="loader-txt">Cargando historial...</div>
+</div>
+<div id="toast"></div>
+
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal-card">
+    <div class="modal-icon"  id="modal-icon">⚠️</div>
+    <div class="modal-title" id="modal-title"></div>
+    <div class="modal-desc"  id="modal-desc"></div>
+    <div class="modal-btns">
+      <button class="btn btn-red"   id="modal-ok">Confirmar</button>
+      <button class="btn btn-ghost" id="modal-cancel">Cancelar</button>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-brand">
+    <button class="icon-btn" id="btn-back" style="margin-right:6px">←</button>
+    <div>
+      <div class="header-name">Historial</div>
+      <div class="header-sub">Todos tus exámenes</div>
+    </div>
+  </div>
+  <div class="header-acts">
+    <button class="icon-btn" id="btn-dark">🌙</button>
+    <button class="icon-btn" id="btn-clear" style="color:#FF6060" title="Limpiar">🗑️</button>
+  </div>
+</header>
+
+<!-- Stats globales -->
+<div class="sec" id="stats-sec" style="display:none">
+  <div class="sec-title">📈 Tus estadísticas</div>
+  <div class="gstats" id="gstats"></div>
+</div>
+
+<!-- Ranking -->
+<div class="sec" id="rank-sec" style="display:none">
+  <div class="sec-title" style="margin-top:8px">🏆 Mejores resultados</div>
+  <div id="rank-list"></div>
+</div>
+
+<!-- Todos los exámenes -->
+<div class="sec" style="padding-bottom:36px">
+  <div class="sec-title" id="all-title" style="margin-top:8px">📋 Todos los exámenes</div>
+  <div id="all-list"></div>
+</div>
+
+<script src="js/storage.js"></script>
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+  if (!requireAuth('login.html')) return;
+  applyTheme();
+  renderAll();
+  hideLoader();
+});
+
+document.getElementById('btn-back').addEventListener('click',  () => window.location.href = 'index.html');
+document.getElementById('btn-dark').addEventListener('click',  toggleTheme);
+document.getElementById('btn-clear').addEventListener('click', () => {
+  if (!Storage.getHistory().length) { showToast('No hay historial que borrar'); return; }
+  showModal('Limpiar historial','¿Borrar todos los resultados? Esta acción no se puede deshacer.','🗑️',
+    () => { Storage.clearHistory(); renderAll(); showToast('✓ Historial borrado'); },
+    () => {}
+  );
+});
+
+function renderAll() {
+  const hist    = Storage.getHistory();
+  const stats   = Storage.getStats();
+  const ranking = Storage.getRanking();
+
+  // Stats globales
+  const sSec = document.getElementById('stats-sec');
+  if (hist.length) {
+    sSec.style.display = 'block';
+    document.getElementById('gstats').innerHTML = `
+      <div class="gs"><div class="gs-n">${stats.totalExams}</div><div class="gs-l">Exámenes</div></div>
+      <div class="gs"><div class="gs-n">${stats.avgScore}%</div><div class="gs-l">Promedio</div></div>
+      <div class="gs"><div class="gs-n">${stats.bestScore}%</div><div class="gs-l">Mejor</div></div>
+    `;
+  }
+
+  // Ranking
+  const rSec = document.getElementById('rank-sec');
+  if (ranking.length) {
+    rSec.style.display = 'block';
+    const medals = ['🥇','🥈','🥉'];
+    document.getElementById('rank-list').innerHTML = ranking.slice(0,3).map((r,i) => `
+      <div class="rank-card">
+        <span class="rank-medal">${medals[i]||'🏅'}</span>
+        <div class="rank-info">
+          <div class="rank-name">${r.modeName||r.mode}</div>
+          <div class="rank-meta">${r.date} · ${r.time} · ⏱ ${formatTime(r.timeUsed)}</div>
+        </div>
+        <div class="rank-pct ${r.percentage>=60?'pass':'fail'}">${r.percentage}%</div>
+      </div>
+    `).join('');
+  }
+
+  // Lista completa
+  const allEl = document.getElementById('all-list');
+  if (!hist.length) {
+    allEl.innerHTML = `<div class="empty">
+      <div class="ico">📭</div>
+      <h3>Sin resultados aún</h3>
+      <p>Completa tu primer examen para<br>ver tu historial y estadísticas aquí.</p>
+      <a href="index.html" class="btn btn-red" style="margin-top:16px;display:inline-flex;width:auto;padding:12px 24px">
+        🎯 Ir al menú
+      </a>
+    </div>`;
+    return;
+  }
+  document.getElementById('all-title').textContent = `📋 Todos los exámenes (${hist.length})`;
+  allEl.innerHTML = hist.map((r,i) => `
+    <div class="hist-entry">
+      <div class="entry-idx ${r.percentage>=60?'pass':'fail'}">#${i+1}</div>
+      <div class="entry-body">
+        <div class="entry-mode">${r.modeName||r.mode}</div>
+        <div class="entry-date">${r.date} · ${r.time}</div>
+        <div class="entry-chips">
+          <span class="chip">✅ ${r.correct}</span>
+          <span class="chip">❌ ${r.wrong}</span>
+          <span class="chip">⏱ ${formatTime(r.timeUsed)}</span>
+        </div>
+      </div>
+      <div>
+        <div class="entry-score ${r.percentage>=60?'pass':'fail'}">${r.percentage}%</div>
+        <div class="entry-detail">${r.correct}/${r.total}</div>
+      </div>
+    </div>
+  `).join('');
+}
+</script>
+<script>if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js');</script>
+</body>
+</html>
